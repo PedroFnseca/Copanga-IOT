@@ -1,4 +1,4 @@
-# TCC-COPANGA
+# COPANGA
 
 - Trabalho de conclusão de curso da ETEC de Embu em NOVOTEC Automação industrial
 
