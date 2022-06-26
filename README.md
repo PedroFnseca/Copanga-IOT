@@ -10,4 +10,5 @@
 
 - Utilizando conceitos de internet das coisas será possivel realizar o projeto.
 
-![TCC irrigação](https://user-images.githubusercontent.com/97262778/172014292-723ec50d-956d-448e-8539-59715f303fd9.png)
+
+![Descrição funcionamento](https://user-images.githubusercontent.com/97262778/175794338-6a2ab9a6-9dcf-4d0e-b464-4de30e5a7816.png)
