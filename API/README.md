@@ -12,8 +12,8 @@ http://localhost:3333/sensor
   - ### Coloque os valores no lugar do ?
 ```
   {
-    idSensor: ?,      
-    valorSensor: ?
+    "idSensor": ?,      
+    "valorSensor": ?
   }
 ```
 
@@ -29,7 +29,7 @@ http://localhost:3333/valvula
   - ### Coloque os valores no lugar do ?
 ```
 {
-  idValvula: ?,
-  segundos: ?
+  "idValvula": ?,
+  "segundos": ?
 }
 ```
