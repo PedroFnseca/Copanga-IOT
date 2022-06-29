@@ -23,7 +23,7 @@ http://localhost:3333/sensor
 ## Para inserir dados das valvulas 💧
 - ### URL
 ```
-http://localhost:3333/sensor
+http://localhost:3333/valvula
 ```
 - ### Body JSON
   - ### Coloque os valores no lugar do ?
