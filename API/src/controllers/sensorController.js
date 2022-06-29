@@ -12,7 +12,7 @@ router.post('/',[
     const errosValidation = validationResult(req)
 
     if(!errosValidation.isEmpty()){
-        return res.status(400).json({erro :errosValidation.array()})
+        return res.status(400).json({erros: errosValidation.array()})
     }
 
     const {valorSensor, idSensor} = req.body

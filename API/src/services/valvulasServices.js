@@ -5,7 +5,7 @@ async function inserValvula(id_valvula, segundos){
 
     const sql = 'INSERT INTO tbl_valvula(id_valvula, acionado, desligado) value (?, (select now() - interval ? second), (select now()))'
     
-    const data = [id_valvula]
+    const data = [id_valvula, segundos]
 
     await conn.query(sql, data)
 
