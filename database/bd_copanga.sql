@@ -15,7 +15,3 @@ create table tbl_valvula(
     desligado datetime not null,
     id_valvula int not null
 );
-
-select * from tbl_sensor;
-
-INSERT INTO tbl_valvula(id_valvula, acionado, desligado) value (123, (select now() - interval 14 second), (select now()))
