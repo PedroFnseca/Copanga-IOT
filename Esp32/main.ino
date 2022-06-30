@@ -22,7 +22,7 @@
 
 
 //Variável global responsável por guardar o pacote JSON a ser enviado
-string jsonPayload = "{\"idValvula\":2,\"segundos\":15}";
+string jsonPayload = "{\"idSensor\":15,\"valorSensor\":200}";
 
 
 //Funcionamento interno
@@ -126,17 +126,16 @@ void loop() {
   Sensor1B = digitalRead(2);
   Sensor2B = digitalRead(3);
   
-  if(millis() - millisData >= measurementInterval)
-  {
-    humidityMeasurement();
-  }
+  
   
   //HTTP 
   //Espera pela conexão WiFi, e a cada 10 segundos envia a requisição
-  if ((WiFi.status() == WL_CONNECTED)) {
-  
-  //Chama a função para enviar o endereço da API e o pacote JSON
-  postHTTP("http://" SERVER_IP "/postplain/", jsonPayload);
-  delay(10000);
+  if ((WiFi.status() == WL_CONNECTED)) {         
+          if(millis() - millisData >= measurementInterval)
+          {
+            humidityMeasurement();
+            //Chama a função para enviar o endereço da API e o pacote JSON
+            postHTTP("https://api-irrigacao.herokuapp.com/sensor", jsonPayload);
+          }
   }
 }
