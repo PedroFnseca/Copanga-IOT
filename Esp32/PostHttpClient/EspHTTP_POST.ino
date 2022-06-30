@@ -11,7 +11,7 @@
         bin/PostServer/PostServer
    then put your PC's IP address in SERVER_IP below, port 9080 (instead of default 80):
 */
-//#define SERVER_IP "10.0.1.7:9080" // endereço do PC, caso a API esteja em localhost
+#define SERVER_IP "10.0.1.7:9080" // endereço do PC, caso a API esteja em localhost
 #define SERVER_IP "192.168.1.42"
 
 //Configuração de nome e senha da rede WiFi a ser conenctada
