@@ -2,7 +2,7 @@
 
 <br>
 
-> ## Como Usar a API 🤔
+# Como Usar a API 🤔
 
 <br>
 
