@@ -1,4 +1,5 @@
-# COPANGA
+![Banner COPANGA](https://user-images.githubusercontent.com/97262778/176702559-800b9b39-faa9-468f-8f89-09fa20a1bbf2.png)
+
 
 - Trabalho de conclusão de curso da ETEC de Embu em NOVOTEC Automação industrial
 
