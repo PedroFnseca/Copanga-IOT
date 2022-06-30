@@ -1,6 +1,9 @@
+//Bibliotecas a serem utilizadas, biblioteca para conexão WiFi e para utilizar o protocolo HTTP
 #include <ESP8266WiFi.h>
 #include <ESP8266HTTPClient.h>
 
+
+//Instruções caso a API esteja em localHost
 /* this can be run with an emulated server on host:
         cd esp8266-core-root-dir
         cd tests/host
@@ -8,7 +11,7 @@
         bin/PostServer/PostServer
    then put your PC's IP address in SERVER_IP below, port 9080 (instead of default 80):
 */
-//#define SERVER_IP "10.0.1.7:9080" // PC address with emulation on host
+//#define SERVER_IP "10.0.1.7:9080" // endereço do PC, caso a API esteja em localhost
 #define SERVER_IP "192.168.1.42"
 
 //Configuração de nome e senha da rede WiFi a ser conenctada
@@ -18,7 +21,7 @@
 #endif
 
 
-//Variável global responsável por guardar pacote a ser enviado
+//Variável global responsável por guardar o pacote JSON a ser enviado
 string jsonPayload = "{\"idValvula\":2,\"segundos\":15}";
 
 //==========================================================
@@ -27,12 +30,12 @@ void postHTTP(string endereco, string payload)
   WiFiClient client;
   HTTPClient http;
 
-  Serial.print("[HTTP] begin...\n");
+  Serial.print("Requisição iniciada...\n");
     //Inicia a comunicação http e envia o header na requisição
     http.begin(client, endereco); //HTTP
     http.addHeader("Content-Type", "application/json");
 
-    Serial.print("[HTTP] POST...\n");
+    Serial.print("POST...\n");
     //httpCode é a variável que recebe o valor da requisição, se deu certo o valor é 200, responsável também por chamar a função que faz um POST na API.
     int httpCode = http.POST(payload);
 
