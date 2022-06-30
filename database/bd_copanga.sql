@@ -5,7 +5,7 @@ create database bd_copanga;
 use bd_copanga;
 
 create table tbl_sensor(
-	dataHora timestamp,
+	dataHora date not null,
     valorSensor float not null,
     id_sensor int not null
 );
