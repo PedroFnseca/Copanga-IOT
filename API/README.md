@@ -9,7 +9,7 @@
 > ## Para inserir dados de sensores de umidade 🛰
 ## URL
 ```
-http://localhost:3333/sensor
+https://api-irrigacao.herokuapp.com/sensor
 ```
 
 ## Body JSON
@@ -27,7 +27,7 @@ http://localhost:3333/sensor
 ## Para inserir dados das valvulas 💧
 - ### URL
 ```
-http://localhost:3333/valvula
+https://api-irrigacao.herokuapp.com/valvula
 ```
 - ### Body JSON
   - ### Coloque os valores no lugar do ?
