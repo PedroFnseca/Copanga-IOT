@@ -12,9 +12,9 @@
 #define SERVER_IP "192.168.1.42"
 
 //Configuração de nome e senha da rede WiFi a ser conenctada
-#ifndef STASSID
-#define STASSID "your-ssid"
-#define STAPSK  "your-password"
+#ifndef ssid
+#define ssid "ssid"
+#define password  "password"
 #endif
 
 
@@ -38,14 +38,14 @@ void postHTTP(string endereco, string payload)
 
     //caso o código seja menor que 0, significa que o POST deu erro
     if (httpCode > 0) {
-      // HTTP header has been send and Server response header has been handled
+      // Mostra no monitor serial qual o código da requisição
       Serial.printf("Código HTTP: %d\n", httpCode);
 
-      // file found at server
+      // Caso a requisição seja compreendida pela API, mostra no monitor serial o retorno da API
       if (httpCode == HTTP_CODE_OK) {
-        const String& payload = http.getString();
-        Serial.println("received payload:\n<<");
-        Serial.println(payload);
+        const String& bodyGET = http.getString();
+        Serial.println("Pacote recebido:\n<<");
+        Serial.println(bodyGET);
         Serial.println(">>");
       }
     } else {
@@ -65,12 +65,16 @@ void setup() {
   Serial.println();
   Serial.println();
 
-  WiFi.begin(STASSID, STAPSK);
+  //Inicia a conexão WiFi, passando o ssid e a senha
+  WiFi.begin(ssid, password);
 
+  //Enquanto não está conectado à rede, aparece pontinhos a cada meio segundo no monitor serial
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
   }
+        
+  //Após conectar, aparece o endereço IP
   Serial.println("");
   Serial.print("Connected! IP address: ");
   Serial.println(WiFi.localIP());
@@ -80,8 +84,10 @@ void setup() {
 
 //==========================================================
 void loop() {
-  // wait for WiFi connection
+  //Espera pela conexão WiFi, e a cada 10 segundos envia a requisição
   if ((WiFi.status() == WL_CONNECTED)) {
+  
+  //Chama a função para enviar o endereço da API e o pacote JSON
   postHTTP("http://" SERVER_IP "/postplain/", jsonPayload);
   delay(10000);
   }
