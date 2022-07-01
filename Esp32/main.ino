@@ -22,7 +22,7 @@
 
 
 //Variável global responsável por guardar o pacote JSON a ser enviado
-string jsonPayload = "{\"idSensor\":15,\"valorSensor\":200}";
+String jsonSensor = "{\"idSensor\":15,\"valorSensor\":200}";
 
 
 //Funcionamento interno
@@ -31,7 +31,7 @@ int SensorSensivity = 550;
 int measurementInterval = 300;
 
 
-void postHTTP(string endereco, string payload)
+void postHTTP(String endereco, String payload)
 {
   WiFiClient client;
   HTTPClient http;
@@ -70,21 +70,33 @@ void humidityMeasurement()
   if(Sensor1A <= SensorSensivity)
   {
     Serial.print("Solo seco, sensor1A");
+    digitalWrite(0, HIGH);
+  }else{
+    digitalWrite(0, LOW);
   }
 
   if(Sensor2A <= SensorSensivity)
   {
     Serial.print("Solo seco, sensor2A");
+    digitalWrite(1, HIGH);
+  }else{
+    digitalWrite(1, LOW);
   }
 
   if(Sensor1B <= SensorSensivity)
   {
     Serial.print("Solo seco, sensor1B");
+    digitalWrite(2, HIGH);
+  }else{
+    digitalWrite(2, LOW);
   }
 
   if(Sensor2B <= SensorSensivity)
   {
     Serial.print("Solo seco, sensor2B");
+    digitalWrite(3, HIGH);
+  }else{
+    digitalWrite(3, LOW);
   }
 }
 
@@ -92,8 +104,14 @@ void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
 
-  PORTD = B00000011;
-  
+  for(int i; i = 0; i++)
+  {
+    pinMode(i, INPUT);
+  }
+
+  pinMode(7, OUTPUT);
+  pinMode(6, OUTPUT);
+
   
   //WiFi
   Serial.begin(115200);
@@ -135,7 +153,7 @@ void loop() {
           {
             humidityMeasurement();
             //Chama a função para enviar o endereço da API e o pacote JSON
-            postHTTP("https://api-irrigacao.herokuapp.com/sensor", jsonPayload);
+            postHTTP("https://api-irrigacao.herokuapp.com/sensor", jsonSensor);
           }
   }
 }
