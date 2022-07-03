@@ -4,7 +4,7 @@ import { body, validationResult } from 'express-validator'
 
 const router = express.Router()
 
-router.post('/',[
+router.post('/', [
     body('idSensor').notEmpty().isNumeric().withMessage('idSensor invalido'),
     body('valorSensor').notEmpty().isNumeric().withMessage('valorSensor inválido'),
     body('key').notEmpty().withMessage('Key vazia')
