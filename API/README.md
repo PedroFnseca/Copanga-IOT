@@ -17,7 +17,8 @@ https://api-irrigacao.herokuapp.com/sensor
 ```
   {
     "idSensor": ?,      
-    "valorSensor": ?
+    "valorSensor": ?,
+    "key": "valueKey"
   }
 ```
 
@@ -34,6 +35,7 @@ https://api-irrigacao.herokuapp.com/valvula
 ```
 {
   "idValvula": ?,
-  "segundos": ?
+  "segundos": ?,
+  "key": "valueKey"
 }
 ```
