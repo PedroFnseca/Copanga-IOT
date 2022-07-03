@@ -6,7 +6,8 @@ const router = express.Router()
 
 router.post('/',[
     body('idSensor').notEmpty().isNumeric().withMessage('idSensor invalido'),
-    body('valorSensor').notEmpty().isNumeric().withMessage('valorSensor inválido')
+    body('valorSensor').notEmpty().isNumeric().withMessage('valorSensor inválido'),
+    body('key').notEmpty().withMessage('Key vazia')
 ], async (req, res) =>{
 
     const errosValidation = validationResult(req)
@@ -15,7 +16,11 @@ router.post('/',[
         return res.status(400).json({erros: errosValidation.array()})
     }
 
-    const {valorSensor, idSensor} = req.body
+    const {valorSensor, idSensor, key} = req.body
+
+    if(key != 'valueKey'){
+        return res.status(401).end()
+    }
 
     try{
         await db.insertSensorValue(valorSensor, idSensor)

@@ -6,7 +6,8 @@ const router = express.Router()
 
 router.post('/', [
     body('idValvula').notEmpty().isNumeric().withMessage('IdValvula inválido'),
-    body('segundos').notEmpty().isNumeric().withMessage('segundos inválido')
+    body('segundos').notEmpty().isNumeric().withMessage('segundos inválido'),
+    body('key').notEmpty().withMessage('Key vazia')
 ], async (req, res) =>{
 
     const errosValidation = validationResult(req)
@@ -15,7 +16,11 @@ router.post('/', [
         return res.status(400).json({erros: errosValidation.array()})
     }
 
-    const {idValvula, segundos} = req.body
+    const {idValvula, segundos, key} = req.body
+
+    if(key != 'valueKey'){
+        return res.status(401).end()
+    }
     
     try {
         await db.inserValvula(idValvula, segundos)
