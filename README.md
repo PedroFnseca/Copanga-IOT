@@ -1,8 +1,4 @@
-![Banner COPANGA](https://user-images.githubusercontent.com/97262778/176702559-800b9b39-faa9-468f-8f89-09fa20a1bbf2.png)
-
-<br>
-
-> # O que é COPANGA
+> # O que é COPANGA 🤔
 - ### Trabalho de conclusão de curso da ETEC de Embu em NOVOTEC Automação industrial
 
 - ### Este projeto foi pensado em um problema recorrente em alguns locais no Brasil, onde se possui plantações que tem tipos de solos diferentes no mesmo local, tendo dificuldades no controle da umidade da terra por possuerem tempo de absorção de água diferente.
