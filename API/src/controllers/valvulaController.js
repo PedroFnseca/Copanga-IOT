@@ -35,4 +35,19 @@ router.post('/', [
     }
 })
 
+router.get('/allData', async (req, res) =>{
+    try {
+        const results = await db.getAllDataValvula()
+
+        if(results.length == 0){
+            res.status(204).end() // code 204 para sem conteudo
+        }
+        else{
+            res.status(200).json(results)
+        }
+    } catch (err) {
+        res.status(500).json(err)
+    }
+})
+
 export default router

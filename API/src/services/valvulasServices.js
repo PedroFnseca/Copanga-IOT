@@ -12,4 +12,16 @@ async function inserValvula(id_valvula, segundos){
     conn.end()
 }
 
-export default {inserValvula}
+async function getAllDataValvula(){
+    const conn = await database.connect()
+
+    const sql = 'SELECT * FROM tbl_valvula'
+
+    const [rows] = await conn.query(sql)
+
+    conn.end()
+
+    return rows
+}
+
+export default {inserValvula, getAllDataValvula}
