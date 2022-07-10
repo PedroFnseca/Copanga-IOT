@@ -35,7 +35,22 @@ router.post('/', [
     }
 })
 
-router.get('/allData', async (req, res) =>{
+router.get('/allData',[
+    body('key').notEmpty().withMessage('Key vazia')
+], async (req, res) =>{
+
+    const errosValidation = validationResult(req)
+
+    if(!errosValidation.isEmpty()){
+        return res.status(400).json({erros: errosValidation.array()})
+    }
+
+    const {key} = req.body
+
+    if(key != 'valueKey'){
+        return res.status(401).end()
+    }
+
     try {
         const results = await db.getAllDataValvula()
 
