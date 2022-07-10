@@ -12,5 +12,17 @@ async function insertSensorValue(valorSensor, id_sensor){
     conn.end()
 }
 
+async function getAllDataSensor(){
+    const conn = await database.connect()
 
-export default {insertSensorValue}
+    const sql = 'SELECT * FROM tbl_sensor'
+
+    const [rows] = await conn.query(sql)
+
+    conn.end()
+
+    return rows
+}
+
+
+export default {insertSensorValue, getAllDataSensor}

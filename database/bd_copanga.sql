@@ -15,3 +15,4 @@ create table tbl_valvula(
     desligado datetime not null,
     id_valvula int not null
 );
+
