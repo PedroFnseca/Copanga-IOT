@@ -83,7 +83,7 @@ router.get('/allDataCount',[
 
     try {
         const results = await db.getAllDataValvulaCount()
-        res.status(200).json(results)
+        res.status(200).json(results[0])
     } catch (err) {
         res.status(500).json(err)
     }
