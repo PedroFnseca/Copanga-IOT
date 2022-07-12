@@ -2,40 +2,67 @@
 
 <br>
 
-# Como Usar a API 🤔
+> # Inserir dados dos sensores 🛰
+##### URL (POST)
 
-<br>
-
-> ## Para inserir dados de sensores de umidade 🛰
-## URL
 ```
 https://api-irrigacao.herokuapp.com/sensor
 ```
 
-## Body JSON
-### Coloque os valores no lugar do '?'
+#### Body JSON
 ```
   {
-    "idSensor": ?,      
-    "valorSensor": ?,
+    "idSensor": 4,      
+    "valorSensor": 80,
     "key": "valueKey"
   }
 ```
 
 <br>
-<br>
 
-## Para inserir dados das valvulas 💧
-- ### URL
+> # Coletar todos os dados dos sensores 🛰
+#### URL (GET)
+
+```
+https://api-irrigacao.herokuapp.com/sensor/allData
+```
+
+#### Body JSON
+```
+  {
+    "key": "valueKey"
+  }
+```
+
+# ㅤ
+<br><br>
+
+> # Inserir dados das valvulas 💧
+#### URL (POST)
 ```
 https://api-irrigacao.herokuapp.com/valvula
 ```
-- ### Body JSON
-  - ### Coloque os valores no lugar do ?
+#### Body JSON
 ```
 {
   "idValvula": ?,
   "segundos": ?,
   "key": "valueKey"
 }
+```
+
+<br>
+
+> # Coletar todos os dados das Valvulas 💧
+#### URL (GET)
+
+```
+https://api-irrigacao.herokuapp.com/sensor/allData
+```
+
+#### Body JSON
+```
+  {
+    "key": "valueKey"
+  }
 ```
