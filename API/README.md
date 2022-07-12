@@ -62,8 +62,8 @@ https://api-irrigacao.herokuapp.com/valvula
     2- Número de registros
 
 ```
-1- https://api-irrigacao.herokuapp.com/sensor/allData        
-2- https://api-irrigacao.herokuapp.com/sensor/allDataCount
+1- https://api-irrigacao.herokuapp.com/valvula/allData        
+2- https://api-irrigacao.herokuapp.com/valvula/allDataCount
 ```
 
 #### Body JSON
