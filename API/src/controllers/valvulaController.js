@@ -65,4 +65,28 @@ router.get('/allData',[
     }
 })
 
+router.get('/allDataCount',[
+    body('key').notEmpty().withMessage('key vazia')
+], async (req, res)=>{
+
+    const errosValidation = validationResult(req)
+
+    if(!errosValidation.isEmpty()){
+        return res.status(400).json({erros: errosValidation.array()})
+    }
+
+    const {key} = req.body
+
+    if(key != 'valueKey'){
+        return res.status(401).end()
+    }
+
+    try {
+        const results = await db.getAllDataValvulaCount()
+        res.status(200).json(results)
+    } catch (err) {
+        res.status(500).json(err)
+    }
+})
+
 export default router

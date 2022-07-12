@@ -24,5 +24,17 @@ async function getAllDataSensor(){
     return rows
 }
 
+async function getAllDataSensorCount(){
+    const conn = await database.connect()
 
-export default {insertSensorValue, getAllDataSensor}
+    const sql = 'SELECT COUNT(*) totalRegistros FROM tbl_sensor'
+
+    const [rows] = await conn.query(sql)
+
+    conn.end
+
+    return rows
+}
+
+
+export default {insertSensorValue, getAllDataSensor, getAllDataSensorCount}
