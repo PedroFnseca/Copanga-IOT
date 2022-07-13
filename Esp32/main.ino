@@ -1,6 +1,6 @@
 //Bibliotecas a serem utilizadas, biblioteca para conexão WiFi e para utilizar o protocolo HTTP
-#include <ESP8266WiFi.h>
-#include <ESP8266HTTPClient.h>
+#include <HTTPClient.h>
+#include <WiFi.h>
 
 //Configuração de nome e senha da rede WiFi a ser conenctada
 #define STASSID "Theodoro_2.4G"
