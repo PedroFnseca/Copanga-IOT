@@ -1,97 +1,96 @@
-//Bibliotecas a serem utilizadas, biblioteca para conexão WiFi e para utilizar o protocolo HTTP
-#include <ESP8266WiFi.h>
-#include <ESP8266HTTPClient.h>
+#include <HTTPClient.h>
+#include <WiFi.h>
 
+const String SensorAPI = "http://api-irrigacao.herokuapp.com/sensor";
+const String ValvulaAPI = "http://api-irrigacao.herokuapp.com/valvula";
 
-//Instruções caso a API esteja em localHost
-/* this can be run with an emulated server on host:
-        cd esp8266-core-root-dir
-        cd tests/host
-        make ../../libraries/ESP8266WebServer/examples/PostServer/PostServer
-        bin/PostServer/PostServer
-   then put your PC's IP address in SERVER_IP below, port 9080 (instead of default 80):
-*/
-#define SERVER_IP "10.0.1.7:9080" // endereço do PC, caso a API esteja em localhost
-#define SERVER_IP "192.168.1.42"
+//Nome e senha do WiFi
+#define STASSID "Theodoro_2.4G"
+#define STAPSK  "20011999"
 
-//Configuração de nome e senha da rede WiFi a ser conenctada
-#ifndef ssid
-#define ssid "ssid"
-#define password  "password"
-#endif
+int idSensor = 7;
+int valorSensor = 777;
+int measurementInterval = 10;
+int millisData = 0;
 
+//Senha da API
+#define apiKey "\"Copanga7\""
 
-//Variável global responsável por guardar o pacote JSON a ser enviado
-string jsonPayload = "{\"idValvula\":2,\"segundos\":15}";
+String json(String caminho, int id, int value)
+{
+  String jsonPayload;
+  //verifica se o json é para o sensor ou para as valvulas
+  if(caminho == "sensor")
+  {
+    jsonPayload = "{\"key\":"apiKey",\"idSensor\":" + String(id) + ",\"valorSensor\":" + String(value) + "}";
+    return jsonPayload;
+  }else if(caminho == "valvula")
+  {
+    jsonPayload = "{\"key\":"apiKey",\"idValvula\":" + String(id) + ",\"segundos\":" + String(value) + "}";
+    return jsonPayload;
+  }
+  
+}
 
-//==========================================================
-void postHTTP(string endereco, string payload)
+void postHTTP(String endereco, String payload)
 {
   WiFiClient client;
   HTTPClient http;
 
   Serial.print("Requisição iniciada...\n");
-    //Inicia a comunicação http e envia o header na requisição
-    http.begin(client, endereco); //HTTP
-    http.addHeader("Content-Type", "application/json");
+  //Inicia a comunicação http e envia o header na requisição
+  http.begin(client, endereco); //HTTP
+  http.addHeader("Content-Type", "application/json");
 
-    Serial.print("POST...\n");
-    //httpCode é a variável que recebe o valor da requisição, se deu certo o valor é 200, responsável também por chamar a função que faz um POST na API.
-    int httpCode = http.POST(payload);
+  Serial.print("POST...\n");
+  //httpCode é a variável que recebe o valor da requisição, se deu certo o valor é 200, responsável também por chamar a função que faz um POST na API.
+  int httpCode = http.POST(payload);
 
-    //caso o código seja menor que 0, significa que o POST deu erro
-    if (httpCode > 0) {
-      // Mostra no monitor serial qual o código da requisição
-      Serial.printf("Código HTTP: %d\n", httpCode);
+  //caso o código seja maior que 0 ou seja, retornou o código
+  if (httpCode > 0) {
+    // Mostra no monitor serial qual o código da requisição
+    Serial.printf("Código HTTP: %d\n", httpCode);
 
-      // Caso a requisição seja compreendida pela API, mostra no monitor serial o retorno da API
-      if (httpCode == HTTP_CODE_OK) {
-        const String& bodyGET = http.getString();
-        Serial.println("Pacote recebido:\n<<");
-        Serial.println(bodyGET);
-        Serial.println(">>");
-      }
+    // Caso a requisição seja compreendida pela API, mostra no monitor serial o body da requisição
+    if (httpCode == HTTP_CODE_OK) {
+      const String& bodyGET = http.getString();
+      Serial.println("Pacote recebido:\n<<");
+      Serial.println(bodyGET);
+      Serial.println(">>");
+    }
     } else {
       Serial.printf("Ocorreu erro ao enviar a requisição POST, erro: %s\n", http.errorToString(httpCode).c_str());
     }
-
     http.end();  
 }
 
 
-//==========================================================
-void setup() {
-
+void setup() {  
   Serial.begin(115200);
 
   Serial.println();
-  Serial.println();
-  Serial.println();
 
-  //Inicia a conexão WiFi, passando o ssid e a senha
-  WiFi.begin(ssid, password);
+  //inicia a conexão WiFi
+  WiFi.begin(STASSID, STAPSK);
 
-  //Enquanto não está conectado à rede, aparece pontinhos a cada meio segundo no monitor serial
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
     Serial.print(".");
   }
-        
-  //Após conectar, aparece o endereço IP
   Serial.println("");
   Serial.print("Connected! IP address: ");
   Serial.println(WiFi.localIP());
-
 }
 
-
-//==========================================================
 void loop() {
-  //Espera pela conexão WiFi, e a cada 10 segundos envia a requisição
+  valorSensor = analogRead(35);
+  //Espera pela conexão WiFi
   if ((WiFi.status() == WL_CONNECTED)) {
-  
-  //Chama a função para enviar o endereço da API e o pacote JSON
-  postHTTP("http://" SERVER_IP "/postplain/", jsonPayload);
-  delay(10000);
+    if(millis() - millisData >= (measurementInterval * 60000))
+    {
+      millisData = millis();
+      //comando para enviar requisição para o sensor, primeiro parametro é o endereço, e o segundo é um objeto String que retorna formatado o json
+      postHTTP(SensorAPI, json("sensor", idSensor, valorSensor));
+    }
   }
 }
