@@ -9,7 +9,7 @@ const String ValvulaAPI = "http://api-irrigacao.herokuapp.com/valvula";
 #define STAPSK  "20011999"
 
 int idSensor = 7;
-int valorSensor = 777;
+int valorSensor = 0;
 int measurementInterval = 10;
 int millisData = 0;
 
