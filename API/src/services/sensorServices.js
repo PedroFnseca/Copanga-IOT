@@ -31,7 +31,7 @@ async function getAllDataSensorCount(){
 
     const [rows] = await conn.query(sql)
 
-    conn.end
+    conn.end()
 
     return rows
 }
@@ -43,7 +43,7 @@ async function getAllDataSensorByID(id){
 
     const [rows] = await conn.query(sql)
 
-    conn.end
+    conn.end()
 
     return rows
 }
@@ -55,7 +55,7 @@ async function getLastDataSensor(last){
 
     const [rows] = await conn.query(sql)
 
-    conn.end
+    conn.end()
 
     return rows
 }
