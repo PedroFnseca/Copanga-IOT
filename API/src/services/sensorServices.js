@@ -15,7 +15,7 @@ async function insertSensorValue(valorSensor, id_sensor){
 async function getAllDataSensor(){
     const conn = await database.connect()
 
-    const sql = 'SELECT * FROM tbl_sensor'
+    const sql = 'SELECT * FROM tbl_sensor ORDER BY datahora DESC'
 
     const [rows] = await conn.query(sql)
 
@@ -27,7 +27,7 @@ async function getAllDataSensor(){
 async function getAllDataSensorCount(){
     const conn = await database.connect()
 
-    const sql = 'SELECT COUNT(*) totalRegistros FROM tbl_sensor'
+    const sql = 'SELECT COUNT(*) totalRegistros FROM tbl_sensor ORDER BY datahora DESC'
 
     const [rows] = await conn.query(sql)
 
@@ -39,7 +39,7 @@ async function getAllDataSensorCount(){
 async function getAllDataSensorByID(id){
     const conn = await database.connect()
 
-    const sql = `SELECT * FROM tbl_sensor WHERE id_sensor = ${id}`
+    const sql = `SELECT * FROM tbl_sensor WHERE id_sensor = ${id} ORDER BY datahora DESC`
 
     const [rows] = await conn.query(sql)
 
