@@ -1,7 +1,3 @@
-![Banner BD](https://user-images.githubusercontent.com/97262778/176703006-61fd653d-0107-4c2c-a9ee-03ae82085168.png)
-
-<br>
-
 > # Como os dados são armazenados? 🤔
 ### Os dados armazenados dentro do banco de dados são referentes as valvulas que liberam água e os valores coletados dos sensores de umidade.
 
