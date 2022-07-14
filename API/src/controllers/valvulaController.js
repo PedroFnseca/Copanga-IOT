@@ -120,4 +120,35 @@ router.get('/allDataId',[
     }
 })
 
+router.get('/lastData',[
+    body('key').notEmpty().withMessage('key vazia'),
+    body('last').notEmpty().withMessage('Last invalido')
+], async (req, res)=>{
+
+    const errosValidation = validationResult(req)
+
+    if(!errosValidation.isEmpty()){
+        return res.status(400).json({erros: errosValidation.array()})
+    }
+
+    const {key, last} = req.body
+
+    if(key != 'keyValue'){
+        return res.status(401).end()
+    }
+
+    try {
+        const results = await db.getLastDataValvula(last)
+
+        if(results.length == 0){
+            res.status(204).end() // code 204 para sem conteudo
+        }
+        else{
+            res.status(200).json(results)
+        }
+    } catch (err) {
+        res.status(500).json(err)
+    }
+})
+
 export default router

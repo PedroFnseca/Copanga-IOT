@@ -48,5 +48,18 @@ async function getAllDataValvulaByID(id){
     return rows
 }
 
+async function getLastDataValvula(last){
+    const conn = await database.connect()
 
-export default {inserValvula, getAllDataValvula, getAllDataValvulaCount, getAllDataValvulaByID}
+    const sql = `SELECT * FROM tbl_valvula LIMIT ${last}`
+
+    const [rows] = await conn.query(sql)
+
+    conn.end
+
+    return rows
+}
+
+
+export default {inserValvula, getAllDataValvula, getAllDataValvulaCount, getAllDataValvulaByID,
+                getLastDataValvula}
