@@ -36,4 +36,17 @@ async function getAllDataValvulaCount(){
     return rows
 }
 
-export default {inserValvula, getAllDataValvula, getAllDataValvulaCount}
+async function getAllDataValvulaByID(id){
+    const conn = await database.connect()
+
+    const sql = `SELECT * FROM tbl_valvula WHERE id_valvula = ${id}`
+
+    const [rows] = await conn.query(sql)
+
+    conn.end
+
+    return rows
+}
+
+
+export default {inserValvula, getAllDataValvula, getAllDataValvulaCount, getAllDataValvulaByID}
