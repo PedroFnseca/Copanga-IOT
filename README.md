@@ -11,4 +11,4 @@
 
 <br>
 
-![Descrição funcionamento](https://user-images.githubusercontent.com/97262778/175794338-6a2ab9a6-9dcf-4d0e-b464-4de30e5a7816.png)
+![Irrigação - Descrição funcionamento](https://user-images.githubusercontent.com/97262778/179118347-32bf8100-f78c-4b4c-b88a-b29335d0fcce.png)
