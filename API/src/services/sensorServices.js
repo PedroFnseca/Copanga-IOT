@@ -51,7 +51,7 @@ async function getAllDataSensorByID(id){
 async function getLastDataSensor(last){
     const conn = await database.connect()
 
-    const sql = `SELECT * FROM tbl_sensor LIMIT ${last}`
+    const sql = `SELECT * FROM tbl_sensor ORDER BY datahora DESC LIMIT ${last}`
 
     const [rows] = await conn.query(sql)
 

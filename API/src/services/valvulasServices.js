@@ -51,7 +51,7 @@ async function getAllDataValvulaByID(id){
 async function getLastDataValvula(last){
     const conn = await database.connect()
 
-    const sql = `SELECT * FROM tbl_valvula LIMIT ${last}`
+    const sql = `SELECT * FROM tbl_valvula ORDER BY desligado DESC LIMIT ${last}`
 
     const [rows] = await conn.query(sql)
 
