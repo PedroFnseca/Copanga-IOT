@@ -91,4 +91,35 @@ router.get('/allDataCount',[
     }
 })
 
+router.get('/allDataId',[
+    body('key').notEmpty().withMessage('key vazia'),
+    body('idSensor').notEmpty().isNumeric().withMessage('id inválido')
+], async (req, res)=>{
+
+    const errosValidation = validationResult(req)
+
+    if(!errosValidation.isEmpty()){
+        return res.status(400).json({erros: errosValidation.array()})
+    }
+
+    const {key, idSensor} = req.body
+
+    if(key != 'valueKey'){
+        return res.status(401).end()
+    }
+
+    try {
+        const results = await db.getAllDataSensorByID(idSensor)
+
+        if(results.length == 0){
+            res.status(204).end() // code 204 para sem conteudo
+        }
+        else{
+            res.status(200).json(results)
+        }
+    } catch (err) {
+        res.status(500).json(err)
+    }
+})
+
 export default router

@@ -36,5 +36,16 @@ async function getAllDataSensorCount(){
     return rows
 }
 
+async function getAllDataSensorByID(id){
+    const conn = await database.connect()
 
-export default {insertSensorValue, getAllDataSensor, getAllDataSensorCount}
+    const sql = `SELECT * FROM tbl_sensor WHERE id_sensor = ${id}`
+
+    const [rows] = await conn.query(sql)
+
+    conn.end
+
+    return rows
+}
+
+export default {insertSensorValue, getAllDataSensor, getAllDataSensorCount, getAllDataSensorByID}
