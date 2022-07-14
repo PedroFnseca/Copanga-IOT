@@ -15,7 +15,7 @@ async function inserValvula(id_valvula, segundos){
 async function getAllDataValvula(){
     const conn = await database.connect()
 
-    const sql = 'SELECT * FROM tbl_valvula'
+    const sql = 'SELECT * FROM tbl_valvula ORDER BY desligado DESC'
 
     const [rows] = await conn.query(sql)
 
@@ -27,7 +27,7 @@ async function getAllDataValvula(){
 async function getAllDataValvulaCount(){
     const conn = await database.connect()
 
-    const sql = 'SELECT COUNT(*) totalRegistros FROM tbl_valvula'
+    const sql = 'SELECT COUNT(*) totalRegistros FROM tbl_valvula ORDER BY desligado DESC'
 
     const [rows] = await conn.query(sql)
 
@@ -39,7 +39,7 @@ async function getAllDataValvulaCount(){
 async function getAllDataValvulaByID(id){
     const conn = await database.connect()
 
-    const sql = `SELECT * FROM tbl_valvula WHERE id_valvula = ${id}`
+    const sql = `SELECT * FROM tbl_valvula WHERE id_valvula = ${id} ORDER BY desligado DESC`
 
     const [rows] = await conn.query(sql)
 
