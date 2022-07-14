@@ -48,4 +48,17 @@ async function getAllDataSensorByID(id){
     return rows
 }
 
-export default {insertSensorValue, getAllDataSensor, getAllDataSensorCount, getAllDataSensorByID}
+async function getLastDataSensor(last){
+    const conn = await database.connect()
+
+    const sql = `SELECT * FROM tbl_sensor LIMIT ${last}`
+
+    const [rows] = await conn.query(sql)
+
+    conn.end
+
+    return rows
+}
+
+export default {insertSensorValue, getAllDataSensor, getAllDataSensorCount, getAllDataSensorByID,
+                getLastDataSensor}
