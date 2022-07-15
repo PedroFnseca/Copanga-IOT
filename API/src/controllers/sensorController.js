@@ -3,6 +3,7 @@ import express from 'express'
 import { body, validationResult } from 'express-validator'
 
 const router = express.Router()
+const keyApi = 'valueKey'
 
 router.post('/', [
     body('idSensor').notEmpty().isNumeric().withMessage('idSensor invalido'),
@@ -18,10 +19,8 @@ router.post('/', [
 
     const {valorSensor, idSensor, key} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
-
+    if(key != keyApi) res.status(401).end()
+    
     try{
         await db.insertSensorValue(valorSensor, idSensor)
 
@@ -48,9 +47,7 @@ router.get('/allData',[
 
     const {key} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
+    if(key != keyApi) res.status(401).end()
 
     try {
         const results = await db.getAllDataSensor()
@@ -78,9 +75,7 @@ router.get('/allDataCount',[
 
     const {key} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
+    if(key != 'valueKey') res.status(401).end()
 
     try {
         const results = await db.getAllDataSensorCount()
@@ -104,9 +99,7 @@ router.get('/allDataId',[
 
     const {key, idSensor} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
+    if(key != 'valueKey') res.status(401).end()
 
     try {
         const results = await db.getAllDataSensorByID(idSensor)
@@ -135,9 +128,7 @@ router.get('/lastData',[
 
     const {key, last} = req.body
 
-    if(key != 'keyValue'){
-        return res.status(401).end()
-    }
+    if(key != 'keyValue') res.status(401).end()
 
     try {
         const results = await db.getLastDataSensor(last)
