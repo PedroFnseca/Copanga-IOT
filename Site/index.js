@@ -34,3 +34,10 @@ const myChart = new Chart(
     document.getElementsByClassName('myChart'),
     config
 );
+
+const url = 'https://api-irrigacao.herokuapp.com/sensor/allData'
+
+fetch(url)
+    .then((response) =>{
+        console.log(JSON.parse(response))
+    })
