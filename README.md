@@ -1,3 +1,7 @@
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO...&color=GREEN&style=for-the-badge)
+
+<br>
+
 > # O que é COPANGA 🤔
 - ### Trabalho de conclusão de curso da ETEC de Embu em NOVOTEC Automação industrial
 
