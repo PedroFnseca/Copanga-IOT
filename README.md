@@ -11,4 +11,5 @@
 
 <br>
 
-![Irrigação - Descrição funcionamento](https://user-images.githubusercontent.com/97262778/179118347-32bf8100-f78c-4b4c-b88a-b29335d0fcce.png)
+
+![Irrigação - Descrição funcionamento TCC](https://user-images.githubusercontent.com/97262778/179148177-cf6df30b-cb0a-46c7-ba9a-03c1241beca0.png)
