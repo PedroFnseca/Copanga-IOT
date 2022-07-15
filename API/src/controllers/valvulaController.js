@@ -3,6 +3,7 @@ import express from 'express'
 import { body, validationResult } from 'express-validator'
 
 const router = express.Router()
+const keyApi = 'valueKey'
 
 router.post('/', [
     body('idValvula').notEmpty().isNumeric().withMessage('IdValvula inválido'),
@@ -18,9 +19,7 @@ router.post('/', [
 
     const {idValvula, segundos, key} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
+    if(key != keyApi) res.status(401).end()
     
     try {
         await db.inserValvula(idValvula, segundos)
@@ -47,9 +46,7 @@ router.get('/allData',[
 
     const {key} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
+    if(key != keyApi) res.status(401).end()
 
     try {
         const results = await db.getAllDataValvula()
@@ -77,9 +74,7 @@ router.get('/allDataCount',[
 
     const {key} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
+    if(key != keyApi) res.status(401).end()
 
     try {
         const results = await db.getAllDataValvulaCount()
@@ -102,9 +97,7 @@ router.get('/allDataId',[
 
     const {key, idSensor} = req.body
 
-    if(key != 'valueKey'){
-        return res.status(401).end()
-    }
+    if(key != keyApi) res.status(401).end()
 
     try {
         const results = await db.getAllDataValvulaByID(idSensor)
@@ -133,9 +126,7 @@ router.get('/lastData',[
 
     const {key, last} = req.body
 
-    if(key != 'keyValue'){
-        return res.status(401).end()
-    }
+    if(key != keyApi) res.status(401).end()
 
     try {
         const results = await db.getLastDataValvula(last)
