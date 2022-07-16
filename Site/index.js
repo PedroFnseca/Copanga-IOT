@@ -20,9 +20,10 @@ function collectDate(dataJson){
     dataJson.map((data) =>{
 
         const date = formatdate(data.dataHora, false)
-
-        return dados.push(date)
-    })
+        if(!dados.includes(date)){
+            return dados.push(date)
+        }
+    })  
 
     return dados
 }
@@ -54,6 +55,21 @@ function formatdate(date, format){
     }
 }
 
+function separateData(dataJson){
+    data = [[], []]
+
+    dataJson.map(dataMap => {
+        if(dataMap.id_sensor == 0){
+            data[0].push(dataMap.valorSensor)
+        }
+        else if(dataMap.id_sensor == 1){
+            data[1].push(dataMap.valorSensor)
+        }
+    })
+
+    return data
+}
+
 getData(url, 15)
 .then(response =>{
     // console.log(response)
@@ -61,15 +77,24 @@ getData(url, 15)
     const dados = collectValue(response)
     const labels = collectDate(response)
     const id = collectId(response)
-    
+    const dataSeparated = separateData(response)
+
+    console.log(dataSeparated)
+
     const data = {
         labels: labels,
         datasets: [{
           label: `Sensor ${id[0]}`,
           backgroundColor: 'rgb(255, 99, 132)',
           borderColor: 'rgb(255, 99, 132)',
-          data: dados,
+          data: dataSeparated[0],
         },
+        {
+        label: `Sensor ${id[1]}`,
+        backgroundColor: 'rgb(0, 99, 132)',
+        borderColor: 'rgb(0, 99, 132)',
+        data: dataSeparated[1],
+        }
     ],
     };
     
