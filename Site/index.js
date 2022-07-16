@@ -54,8 +54,7 @@ function formatdate(date, format){
     }
 }
 
-setTimeout(
-    getData(url, 15)
+getData(url, 15)
 .then(response =>{
     // console.log(response)
     
@@ -83,5 +82,4 @@ setTimeout(
         document.getElementsByClassName('myChart'),
         config
     );
-}),  18000
-)
+})
