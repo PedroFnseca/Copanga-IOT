@@ -43,7 +43,8 @@ function collectDate(dataJson){
     return dados
 }
 
-getData(url, 25)
+setTimeout(
+    getData(url, 25)
 .then(response =>{
     console.log(response)
     
@@ -71,4 +72,5 @@ getData(url, 25)
         document.getElementsByClassName('myChart'),
         config
     );
-})
+}),  180000
+)
