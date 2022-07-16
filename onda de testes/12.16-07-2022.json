@@ -1,0 +1,2419 @@
+{
+	"results": [
+		{
+			"dataHora": "2022-07-16T11:43:04.000Z",
+			"valorSensor": 2480,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T11:33:04.000Z",
+			"valorSensor": 2480,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T11:23:04.000Z",
+			"valorSensor": 2426,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T11:13:04.000Z",
+			"valorSensor": 2431,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T11:03:04.000Z",
+			"valorSensor": 2475,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T10:53:04.000Z",
+			"valorSensor": 2481,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T10:43:04.000Z",
+			"valorSensor": 2480,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T10:33:04.000Z",
+			"valorSensor": 2544,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T10:23:04.000Z",
+			"valorSensor": 2575,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T10:13:04.000Z",
+			"valorSensor": 2559,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T10:03:04.000Z",
+			"valorSensor": 2453,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T09:53:04.000Z",
+			"valorSensor": 2485,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T09:43:04.000Z",
+			"valorSensor": 2587,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T09:33:04.000Z",
+			"valorSensor": 2592,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T09:23:04.000Z",
+			"valorSensor": 2610,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T09:13:04.000Z",
+			"valorSensor": 2513,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T09:03:04.000Z",
+			"valorSensor": 2638,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T08:53:04.000Z",
+			"valorSensor": 2677,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T08:43:04.000Z",
+			"valorSensor": 2448,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T08:33:04.000Z",
+			"valorSensor": 2478,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T08:23:04.000Z",
+			"valorSensor": 2421,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T08:13:04.000Z",
+			"valorSensor": 2400,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T08:03:04.000Z",
+			"valorSensor": 2497,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T07:53:04.000Z",
+			"valorSensor": 2503,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T07:43:04.000Z",
+			"valorSensor": 2340,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T07:33:04.000Z",
+			"valorSensor": 2431,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T07:23:04.000Z",
+			"valorSensor": 2417,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T07:13:04.000Z",
+			"valorSensor": 2416,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T07:03:04.000Z",
+			"valorSensor": 2425,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T06:53:04.000Z",
+			"valorSensor": 2449,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T06:43:04.000Z",
+			"valorSensor": 2559,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T06:33:04.000Z",
+			"valorSensor": 2586,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T06:23:04.000Z",
+			"valorSensor": 2575,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T06:13:04.000Z",
+			"valorSensor": 2553,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T06:03:04.000Z",
+			"valorSensor": 2630,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T05:53:04.000Z",
+			"valorSensor": 2611,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T05:43:04.000Z",
+			"valorSensor": 2665,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T05:33:04.000Z",
+			"valorSensor": 2480,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T05:23:04.000Z",
+			"valorSensor": 2701,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T05:13:04.000Z",
+			"valorSensor": 2598,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T05:03:04.000Z",
+			"valorSensor": 2657,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T04:53:04.000Z",
+			"valorSensor": 2515,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T04:43:04.000Z",
+			"valorSensor": 2334,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T04:33:04.000Z",
+			"valorSensor": 2319,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T04:23:04.000Z",
+			"valorSensor": 2315,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T04:13:04.000Z",
+			"valorSensor": 2596,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T04:03:04.000Z",
+			"valorSensor": 2624,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T03:53:04.000Z",
+			"valorSensor": 2522,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T03:43:04.000Z",
+			"valorSensor": 2455,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T03:33:04.000Z",
+			"valorSensor": 2547,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T03:23:04.000Z",
+			"valorSensor": 2530,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T03:13:04.000Z",
+			"valorSensor": 2467,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T03:03:04.000Z",
+			"valorSensor": 2435,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T02:53:04.000Z",
+			"valorSensor": 2448,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T02:43:04.000Z",
+			"valorSensor": 2427,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T02:33:04.000Z",
+			"valorSensor": 2639,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T02:23:04.000Z",
+			"valorSensor": 2415,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T02:13:04.000Z",
+			"valorSensor": 2672,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T02:03:04.000Z",
+			"valorSensor": 2535,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T01:53:04.000Z",
+			"valorSensor": 2706,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T01:43:04.000Z",
+			"valorSensor": 2485,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T01:33:04.000Z",
+			"valorSensor": 2386,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T01:23:04.000Z",
+			"valorSensor": 2415,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T01:13:04.000Z",
+			"valorSensor": 2470,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T01:03:04.000Z",
+			"valorSensor": 2690,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T00:53:04.000Z",
+			"valorSensor": 2630,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T00:43:04.000Z",
+			"valorSensor": 2421,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T00:33:04.000Z",
+			"valorSensor": 2467,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T00:23:04.000Z",
+			"valorSensor": 2412,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T00:13:04.000Z",
+			"valorSensor": 2462,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-16T00:03:04.000Z",
+			"valorSensor": 2435,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T23:53:04.000Z",
+			"valorSensor": 2450,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T23:43:04.000Z",
+			"valorSensor": 2403,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T23:33:04.000Z",
+			"valorSensor": 2359,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T19:04:51.000Z",
+			"valorSensor": 1649,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T18:54:51.000Z",
+			"valorSensor": 1648,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T18:44:51.000Z",
+			"valorSensor": 1648,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T18:34:51.000Z",
+			"valorSensor": 1650,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T18:24:51.000Z",
+			"valorSensor": 1638,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T18:14:51.000Z",
+			"valorSensor": 1616,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T18:04:51.000Z",
+			"valorSensor": 1595,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T17:54:51.000Z",
+			"valorSensor": 1597,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T17:44:51.000Z",
+			"valorSensor": 1583,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T17:34:52.000Z",
+			"valorSensor": 2245,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T17:24:51.000Z",
+			"valorSensor": 2254,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T17:14:51.000Z",
+			"valorSensor": 2250,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T17:04:51.000Z",
+			"valorSensor": 2187,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T16:54:51.000Z",
+			"valorSensor": 2214,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T16:44:51.000Z",
+			"valorSensor": 2222,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T16:34:51.000Z",
+			"valorSensor": 2192,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T16:24:52.000Z",
+			"valorSensor": 2173,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T16:14:51.000Z",
+			"valorSensor": 2160,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T16:04:51.000Z",
+			"valorSensor": 2160,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T15:54:51.000Z",
+			"valorSensor": 2143,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T15:44:51.000Z",
+			"valorSensor": 2122,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T15:34:51.000Z",
+			"valorSensor": 2123,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T15:24:51.000Z",
+			"valorSensor": 2089,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T15:14:51.000Z",
+			"valorSensor": 2103,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T15:04:51.000Z",
+			"valorSensor": 2047,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T14:54:51.000Z",
+			"valorSensor": 2076,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T14:44:52.000Z",
+			"valorSensor": 2071,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T14:34:52.000Z",
+			"valorSensor": 2070,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T14:24:51.000Z",
+			"valorSensor": 2069,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T14:14:52.000Z",
+			"valorSensor": 2010,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T14:04:52.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T13:54:51.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T13:44:51.000Z",
+			"valorSensor": 2064,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T13:34:51.000Z",
+			"valorSensor": 2042,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T13:24:51.000Z",
+			"valorSensor": 2066,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T13:14:52.000Z",
+			"valorSensor": 2029,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T13:04:51.000Z",
+			"valorSensor": 2047,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T12:54:51.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T12:44:51.000Z",
+			"valorSensor": 2060,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T12:34:51.000Z",
+			"valorSensor": 2042,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T12:24:51.000Z",
+			"valorSensor": 2058,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T12:14:51.000Z",
+			"valorSensor": 2079,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T12:04:51.000Z",
+			"valorSensor": 2062,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T11:54:51.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T11:44:51.000Z",
+			"valorSensor": 2083,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T11:34:51.000Z",
+			"valorSensor": 2096,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T11:24:51.000Z",
+			"valorSensor": 2090,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T11:14:51.000Z",
+			"valorSensor": 2093,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T11:04:52.000Z",
+			"valorSensor": 2100,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T10:54:51.000Z",
+			"valorSensor": 2092,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T10:44:51.000Z",
+			"valorSensor": 2103,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T10:34:51.000Z",
+			"valorSensor": 2096,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T10:24:51.000Z",
+			"valorSensor": 2121,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T10:14:51.000Z",
+			"valorSensor": 2112,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T10:04:51.000Z",
+			"valorSensor": 2129,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T09:54:51.000Z",
+			"valorSensor": 2137,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T09:44:51.000Z",
+			"valorSensor": 2131,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T09:34:51.000Z",
+			"valorSensor": 2128,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T09:24:51.000Z",
+			"valorSensor": 2139,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T09:14:51.000Z",
+			"valorSensor": 2147,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T09:04:51.000Z",
+			"valorSensor": 2118,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T08:54:51.000Z",
+			"valorSensor": 2149,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T08:44:51.000Z",
+			"valorSensor": 2115,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T08:34:51.000Z",
+			"valorSensor": 2153,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T08:24:51.000Z",
+			"valorSensor": 2150,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T08:14:52.000Z",
+			"valorSensor": 2165,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T08:04:51.000Z",
+			"valorSensor": 2138,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T07:54:51.000Z",
+			"valorSensor": 2144,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T07:44:51.000Z",
+			"valorSensor": 2128,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T07:34:51.000Z",
+			"valorSensor": 2137,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T07:24:52.000Z",
+			"valorSensor": 2150,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T07:14:52.000Z",
+			"valorSensor": 2151,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T07:04:52.000Z",
+			"valorSensor": 2138,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T06:54:51.000Z",
+			"valorSensor": 2133,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T06:44:51.000Z",
+			"valorSensor": 2115,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T06:34:51.000Z",
+			"valorSensor": 2146,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T06:24:51.000Z",
+			"valorSensor": 2128,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T06:14:51.000Z",
+			"valorSensor": 2136,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T06:04:51.000Z",
+			"valorSensor": 2146,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T05:54:51.000Z",
+			"valorSensor": 2127,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T05:44:51.000Z",
+			"valorSensor": 2133,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T05:34:51.000Z",
+			"valorSensor": 2141,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T05:24:51.000Z",
+			"valorSensor": 2125,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T05:14:51.000Z",
+			"valorSensor": 2121,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T05:04:51.000Z",
+			"valorSensor": 2125,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T04:54:51.000Z",
+			"valorSensor": 2128,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T04:44:51.000Z",
+			"valorSensor": 2108,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T04:34:51.000Z",
+			"valorSensor": 2112,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T04:24:51.000Z",
+			"valorSensor": 2118,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T04:14:51.000Z",
+			"valorSensor": 2110,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T04:04:51.000Z",
+			"valorSensor": 2102,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T03:54:51.000Z",
+			"valorSensor": 2112,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T03:44:51.000Z",
+			"valorSensor": 2119,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T03:34:51.000Z",
+			"valorSensor": 2108,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T03:24:51.000Z",
+			"valorSensor": 2099,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T03:14:51.000Z",
+			"valorSensor": 2098,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T03:04:51.000Z",
+			"valorSensor": 2097,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T02:54:51.000Z",
+			"valorSensor": 2096,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T02:44:51.000Z",
+			"valorSensor": 2092,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T02:34:51.000Z",
+			"valorSensor": 2106,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T02:24:51.000Z",
+			"valorSensor": 2096,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T02:14:51.000Z",
+			"valorSensor": 2080,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T02:04:51.000Z",
+			"valorSensor": 2096,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T01:54:51.000Z",
+			"valorSensor": 2099,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T01:44:51.000Z",
+			"valorSensor": 2098,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T01:34:51.000Z",
+			"valorSensor": 2074,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T01:24:51.000Z",
+			"valorSensor": 2046,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T01:14:51.000Z",
+			"valorSensor": 2091,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T01:04:51.000Z",
+			"valorSensor": 2097,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T00:54:51.000Z",
+			"valorSensor": 2085,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T00:44:51.000Z",
+			"valorSensor": 2075,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T00:34:51.000Z",
+			"valorSensor": 2075,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T00:24:51.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T00:14:51.000Z",
+			"valorSensor": 2055,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-15T00:04:51.000Z",
+			"valorSensor": 2060,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T23:54:51.000Z",
+			"valorSensor": 2081,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T23:44:51.000Z",
+			"valorSensor": 2067,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T23:34:51.000Z",
+			"valorSensor": 2057,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T23:24:51.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T23:14:51.000Z",
+			"valorSensor": 2060,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T23:04:51.000Z",
+			"valorSensor": 2036,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T22:54:52.000Z",
+			"valorSensor": 2045,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T22:44:51.000Z",
+			"valorSensor": 2044,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T22:34:51.000Z",
+			"valorSensor": 2014,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T22:24:51.000Z",
+			"valorSensor": 2036,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T22:14:51.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T22:04:51.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T21:54:51.000Z",
+			"valorSensor": 2046,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T21:44:51.000Z",
+			"valorSensor": 2045,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T21:34:51.000Z",
+			"valorSensor": 2033,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T21:24:51.000Z",
+			"valorSensor": 2029,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T21:14:51.000Z",
+			"valorSensor": 2019,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T21:04:51.000Z",
+			"valorSensor": 2058,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T20:54:51.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T20:44:51.000Z",
+			"valorSensor": 2019,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T20:34:51.000Z",
+			"valorSensor": 2022,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T20:24:51.000Z",
+			"valorSensor": 2051,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T20:14:51.000Z",
+			"valorSensor": 2034,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T20:04:52.000Z",
+			"valorSensor": 2027,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T19:44:51.000Z",
+			"valorSensor": 2021,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T19:34:51.000Z",
+			"valorSensor": 2025,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T19:24:51.000Z",
+			"valorSensor": 2028,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T19:14:51.000Z",
+			"valorSensor": 1984,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T19:04:53.000Z",
+			"valorSensor": 2010,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T18:54:51.000Z",
+			"valorSensor": 2002,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T18:44:51.000Z",
+			"valorSensor": 2010,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T18:34:52.000Z",
+			"valorSensor": 2011,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T18:24:51.000Z",
+			"valorSensor": 2005,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T18:14:52.000Z",
+			"valorSensor": 2015,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T18:04:51.000Z",
+			"valorSensor": 1989,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T17:54:51.000Z",
+			"valorSensor": 2017,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T17:44:51.000Z",
+			"valorSensor": 2006,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T17:34:51.000Z",
+			"valorSensor": 2015,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T17:24:51.000Z",
+			"valorSensor": 2029,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T17:14:51.000Z",
+			"valorSensor": 2021,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T17:04:51.000Z",
+			"valorSensor": 2003,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T16:54:51.000Z",
+			"valorSensor": 2035,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T16:44:51.000Z",
+			"valorSensor": 2035,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T16:34:51.000Z",
+			"valorSensor": 2038,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T16:24:51.000Z",
+			"valorSensor": 2030,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T16:14:51.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T16:04:51.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T15:54:51.000Z",
+			"valorSensor": 2036,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T15:44:51.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T15:34:51.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T15:24:51.000Z",
+			"valorSensor": 2034,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T15:14:51.000Z",
+			"valorSensor": 2011,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T15:04:51.000Z",
+			"valorSensor": 2069,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T14:54:51.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T14:44:51.000Z",
+			"valorSensor": 2070,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T14:34:51.000Z",
+			"valorSensor": 2064,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T14:24:51.000Z",
+			"valorSensor": 2070,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T14:14:51.000Z",
+			"valorSensor": 2061,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T14:04:51.000Z",
+			"valorSensor": 2078,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T13:54:51.000Z",
+			"valorSensor": 2091,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T13:34:51.000Z",
+			"valorSensor": 2082,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T13:24:51.000Z",
+			"valorSensor": 2073,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T13:14:51.000Z",
+			"valorSensor": 2072,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T13:04:51.000Z",
+			"valorSensor": 2085,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T12:54:51.000Z",
+			"valorSensor": 2091,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T12:44:51.000Z",
+			"valorSensor": 2126,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T12:34:51.000Z",
+			"valorSensor": 2109,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T12:24:51.000Z",
+			"valorSensor": 2105,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T12:14:51.000Z",
+			"valorSensor": 2109,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T12:04:51.000Z",
+			"valorSensor": 2113,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T11:54:51.000Z",
+			"valorSensor": 2119,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T11:44:51.000Z",
+			"valorSensor": 2131,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T11:34:51.000Z",
+			"valorSensor": 2142,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T11:24:51.000Z",
+			"valorSensor": 2146,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T11:14:51.000Z",
+			"valorSensor": 2147,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T11:04:51.000Z",
+			"valorSensor": 2152,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T10:54:51.000Z",
+			"valorSensor": 2144,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T10:44:51.000Z",
+			"valorSensor": 2160,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T10:34:40.000Z",
+			"valorSensor": 2318,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T10:24:40.000Z",
+			"valorSensor": 1927,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T10:14:40.000Z",
+			"valorSensor": 1914,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T10:04:40.000Z",
+			"valorSensor": 1899,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T09:54:40.000Z",
+			"valorSensor": 1925,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T09:44:40.000Z",
+			"valorSensor": 1919,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T09:34:40.000Z",
+			"valorSensor": 1919,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T09:24:40.000Z",
+			"valorSensor": 1913,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T09:14:40.000Z",
+			"valorSensor": 1910,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T09:04:40.000Z",
+			"valorSensor": 1930,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T08:54:40.000Z",
+			"valorSensor": 1930,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T08:44:40.000Z",
+			"valorSensor": 1927,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T08:34:40.000Z",
+			"valorSensor": 1938,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T08:24:40.000Z",
+			"valorSensor": 1915,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T08:14:40.000Z",
+			"valorSensor": 1931,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T08:04:40.000Z",
+			"valorSensor": 1947,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T07:54:40.000Z",
+			"valorSensor": 1938,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T07:44:40.000Z",
+			"valorSensor": 1919,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T07:34:40.000Z",
+			"valorSensor": 1917,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T07:24:40.000Z",
+			"valorSensor": 1938,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T07:14:40.000Z",
+			"valorSensor": 1919,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T07:04:40.000Z",
+			"valorSensor": 1936,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T06:54:40.000Z",
+			"valorSensor": 1936,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T06:44:40.000Z",
+			"valorSensor": 1948,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T06:34:40.000Z",
+			"valorSensor": 1937,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T06:24:40.000Z",
+			"valorSensor": 1937,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T06:14:40.000Z",
+			"valorSensor": 1943,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T06:04:40.000Z",
+			"valorSensor": 1953,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T05:54:40.000Z",
+			"valorSensor": 1936,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T05:44:40.000Z",
+			"valorSensor": 1946,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T05:34:40.000Z",
+			"valorSensor": 1942,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T05:24:40.000Z",
+			"valorSensor": 1926,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T05:14:40.000Z",
+			"valorSensor": 1958,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T05:04:40.000Z",
+			"valorSensor": 1953,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T04:54:40.000Z",
+			"valorSensor": 1958,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T04:44:40.000Z",
+			"valorSensor": 1957,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T04:34:40.000Z",
+			"valorSensor": 1951,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T04:24:40.000Z",
+			"valorSensor": 1921,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T04:14:40.000Z",
+			"valorSensor": 1931,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T04:04:40.000Z",
+			"valorSensor": 1936,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T03:54:40.000Z",
+			"valorSensor": 1943,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T03:44:40.000Z",
+			"valorSensor": 1952,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T03:34:40.000Z",
+			"valorSensor": 1942,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T03:24:40.000Z",
+			"valorSensor": 1950,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T03:14:41.000Z",
+			"valorSensor": 1942,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T03:04:40.000Z",
+			"valorSensor": 1946,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T02:54:40.000Z",
+			"valorSensor": 1951,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T02:44:40.000Z",
+			"valorSensor": 1934,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T02:34:40.000Z",
+			"valorSensor": 1958,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T02:24:40.000Z",
+			"valorSensor": 1951,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T02:14:40.000Z",
+			"valorSensor": 1951,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T02:04:40.000Z",
+			"valorSensor": 1965,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T01:54:40.000Z",
+			"valorSensor": 1959,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T01:44:40.000Z",
+			"valorSensor": 1952,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T01:34:40.000Z",
+			"valorSensor": 1936,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T01:24:40.000Z",
+			"valorSensor": 1950,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T01:14:40.000Z",
+			"valorSensor": 1968,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T01:04:40.000Z",
+			"valorSensor": 1952,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T00:54:40.000Z",
+			"valorSensor": 1973,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T00:44:40.000Z",
+			"valorSensor": 1953,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T00:34:40.000Z",
+			"valorSensor": 1971,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T00:24:40.000Z",
+			"valorSensor": 1965,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T00:14:40.000Z",
+			"valorSensor": 1965,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-14T00:04:40.000Z",
+			"valorSensor": 1970,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T23:54:40.000Z",
+			"valorSensor": 1968,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T23:44:40.000Z",
+			"valorSensor": 1972,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T23:24:40.000Z",
+			"valorSensor": 1975,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T23:14:40.000Z",
+			"valorSensor": 1975,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T23:04:40.000Z",
+			"valorSensor": 1978,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T22:54:40.000Z",
+			"valorSensor": 1984,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T22:44:40.000Z",
+			"valorSensor": 1955,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T22:34:40.000Z",
+			"valorSensor": 1986,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T22:24:40.000Z",
+			"valorSensor": 1983,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T22:14:40.000Z",
+			"valorSensor": 1968,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T22:04:40.000Z",
+			"valorSensor": 1968,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T21:54:40.000Z",
+			"valorSensor": 1981,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T21:44:40.000Z",
+			"valorSensor": 1975,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T21:34:40.000Z",
+			"valorSensor": 1950,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T21:24:40.000Z",
+			"valorSensor": 1983,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T21:14:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T21:04:40.000Z",
+			"valorSensor": 1990,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T20:54:40.000Z",
+			"valorSensor": 1991,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T20:44:40.000Z",
+			"valorSensor": 1991,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T20:34:40.000Z",
+			"valorSensor": 1987,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T20:24:40.000Z",
+			"valorSensor": 1989,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T20:14:40.000Z",
+			"valorSensor": 2001,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T20:04:40.000Z",
+			"valorSensor": 1988,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T19:54:40.000Z",
+			"valorSensor": 1988,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T19:44:40.000Z",
+			"valorSensor": 1987,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T19:34:40.000Z",
+			"valorSensor": 1995,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T19:24:40.000Z",
+			"valorSensor": 2003,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T19:14:40.000Z",
+			"valorSensor": 2005,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T19:04:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T18:54:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T18:44:40.000Z",
+			"valorSensor": 1975,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T18:34:40.000Z",
+			"valorSensor": 1986,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T18:24:40.000Z",
+			"valorSensor": 1991,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T18:14:40.000Z",
+			"valorSensor": 1984,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T18:04:40.000Z",
+			"valorSensor": 1996,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T17:54:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T17:44:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T17:34:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T17:24:40.000Z",
+			"valorSensor": 2003,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T17:14:40.000Z",
+			"valorSensor": 1981,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T17:04:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T16:54:40.000Z",
+			"valorSensor": 1996,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T16:44:40.000Z",
+			"valorSensor": 2010,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T16:34:40.000Z",
+			"valorSensor": 1996,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T16:24:40.000Z",
+			"valorSensor": 1995,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T16:14:40.000Z",
+			"valorSensor": 1999,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T16:04:40.000Z",
+			"valorSensor": 2011,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T15:54:40.000Z",
+			"valorSensor": 1997,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T15:44:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T15:34:40.000Z",
+			"valorSensor": 2003,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T15:24:40.000Z",
+			"valorSensor": 2015,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T15:14:40.000Z",
+			"valorSensor": 1999,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T15:04:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T14:54:40.000Z",
+			"valorSensor": 2000,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T14:44:40.000Z",
+			"valorSensor": 2015,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T14:34:40.000Z",
+			"valorSensor": 2016,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T14:24:40.000Z",
+			"valorSensor": 2020,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T14:14:40.000Z",
+			"valorSensor": 2030,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T14:04:40.000Z",
+			"valorSensor": 2009,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T13:54:40.000Z",
+			"valorSensor": 2007,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T13:44:40.000Z",
+			"valorSensor": 2007,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T13:34:40.000Z",
+			"valorSensor": 2011,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T13:24:40.000Z",
+			"valorSensor": 2021,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T13:14:40.000Z",
+			"valorSensor": 2011,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T13:04:40.000Z",
+			"valorSensor": 2015,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T12:54:40.000Z",
+			"valorSensor": 2031,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T12:44:40.000Z",
+			"valorSensor": 2047,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T12:34:40.000Z",
+			"valorSensor": 2027,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T12:24:40.000Z",
+			"valorSensor": 2039,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T12:14:40.000Z",
+			"valorSensor": 2036,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T12:04:40.000Z",
+			"valorSensor": 2033,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T11:54:40.000Z",
+			"valorSensor": 2015,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T11:44:40.000Z",
+			"valorSensor": 2019,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T11:34:40.000Z",
+			"valorSensor": 2015,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T11:24:40.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T11:14:40.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T11:04:40.000Z",
+			"valorSensor": 2059,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T10:54:40.000Z",
+			"valorSensor": 2054,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T10:44:40.000Z",
+			"valorSensor": 2069,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T10:34:40.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T10:24:40.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T10:14:40.000Z",
+			"valorSensor": 2077,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T10:04:40.000Z",
+			"valorSensor": 2064,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T09:54:40.000Z",
+			"valorSensor": 2057,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T09:44:40.000Z",
+			"valorSensor": 2064,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T09:34:40.000Z",
+			"valorSensor": 2057,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T09:24:40.000Z",
+			"valorSensor": 2063,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T09:14:40.000Z",
+			"valorSensor": 2079,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T09:04:40.000Z",
+			"valorSensor": 2066,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T08:54:40.000Z",
+			"valorSensor": 2078,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T08:44:40.000Z",
+			"valorSensor": 2064,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T08:34:40.000Z",
+			"valorSensor": 2078,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T08:24:40.000Z",
+			"valorSensor": 2054,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T08:14:40.000Z",
+			"valorSensor": 2063,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T08:04:40.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T07:54:40.000Z",
+			"valorSensor": 2045,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T07:44:40.000Z",
+			"valorSensor": 2058,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T07:34:40.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T07:24:40.000Z",
+			"valorSensor": 2070,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T07:14:40.000Z",
+			"valorSensor": 2064,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T07:04:40.000Z",
+			"valorSensor": 2078,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T06:54:40.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T06:44:40.000Z",
+			"valorSensor": 2066,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T06:34:40.000Z",
+			"valorSensor": 2052,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T06:24:40.000Z",
+			"valorSensor": 2066,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T06:14:40.000Z",
+			"valorSensor": 2072,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T06:04:40.000Z",
+			"valorSensor": 2073,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T05:54:40.000Z",
+			"valorSensor": 2065,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T05:44:40.000Z",
+			"valorSensor": 2059,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T05:34:40.000Z",
+			"valorSensor": 2059,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T05:24:40.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T05:14:40.000Z",
+			"valorSensor": 2063,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T05:04:40.000Z",
+			"valorSensor": 2061,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T04:54:40.000Z",
+			"valorSensor": 2063,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T04:44:40.000Z",
+			"valorSensor": 2076,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T04:34:40.000Z",
+			"valorSensor": 2053,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T04:24:40.000Z",
+			"valorSensor": 2055,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T04:14:40.000Z",
+			"valorSensor": 2073,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T04:04:40.000Z",
+			"valorSensor": 2055,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T03:54:40.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T03:44:40.000Z",
+			"valorSensor": 2033,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T03:34:40.000Z",
+			"valorSensor": 2063,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T03:24:40.000Z",
+			"valorSensor": 2037,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T03:14:40.000Z",
+			"valorSensor": 2053,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T03:04:40.000Z",
+			"valorSensor": 2054,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T02:54:40.000Z",
+			"valorSensor": 2058,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T02:44:40.000Z",
+			"valorSensor": 2039,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T02:34:40.000Z",
+			"valorSensor": 2042,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T02:24:40.000Z",
+			"valorSensor": 2033,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T02:14:40.000Z",
+			"valorSensor": 2061,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T02:04:40.000Z",
+			"valorSensor": 2055,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T01:54:40.000Z",
+			"valorSensor": 2053,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T01:44:40.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T01:34:40.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T01:24:40.000Z",
+			"valorSensor": 2046,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T01:14:40.000Z",
+			"valorSensor": 2034,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T01:04:40.000Z",
+			"valorSensor": 2010,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T00:54:40.000Z",
+			"valorSensor": 2029,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T00:44:40.000Z",
+			"valorSensor": 2055,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T00:34:40.000Z",
+			"valorSensor": 2041,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T00:24:40.000Z",
+			"valorSensor": 2030,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T00:14:40.000Z",
+			"valorSensor": 2031,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-13T00:04:40.000Z",
+			"valorSensor": 2039,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T23:54:40.000Z",
+			"valorSensor": 2027,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T23:44:40.000Z",
+			"valorSensor": 2043,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T23:34:40.000Z",
+			"valorSensor": 2032,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T23:24:40.000Z",
+			"valorSensor": 2036,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T23:14:40.000Z",
+			"valorSensor": 2035,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T23:04:40.000Z",
+			"valorSensor": 2019,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T22:54:40.000Z",
+			"valorSensor": 2023,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T22:44:40.000Z",
+			"valorSensor": 2014,
+			"id_sensor": 7
+		},
+		{
+			"dataHora": "2022-07-12T22:34:40.000Z",
+			"valorSensor": 2022,
+			"id_sensor": 7
+		}
+	]
+}
