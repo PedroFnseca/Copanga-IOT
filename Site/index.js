@@ -8,11 +8,34 @@ async function getData(url, count){
 
 function collectValue(dataJson){
     let dados = []
-    dataJson.map((dataSensor) =>{
-        return dados.push(dataSensor.valorSensor)
+    dataJson.map((data) =>{
+        return dados.push(data.valorSensor)
     })
 
     return dados
+}
+
+function collectDate(dataJson){
+    let dados = []
+    dataJson.map((data) =>{
+
+        const date = formatdate(data.dataHora, false)
+
+        return dados.push(date)
+    })
+
+    return dados
+}
+
+function collectId(dataJson){
+    let id = []
+    dataJson.map((data) =>{
+        if(!id.includes(data.id_sensor)){
+            return id.push(data.id_sensor)
+        }
+    })
+
+    return id
 }
 
 function formatdate(date, format){
@@ -31,31 +54,19 @@ function formatdate(date, format){
     }
 }
 
-function collectDate(dataJson){
-    let dados = []
-    dataJson.map((dataSensor) =>{
-
-        const date = formatdate(dataSensor.dataHora, false)
-
-        return dados.push(date)
-    })
-
-    return dados
-}
-
 setTimeout(
-    getData(url, 25)
+    getData(url, 15)
 .then(response =>{
-    console.log(response)
+    // console.log(response)
     
     const dados = collectValue(response)
-
     const labels = collectDate(response)
+    const id = collectId(response)
     
     const data = {
         labels: labels,
         datasets: [{
-          label: 'Sensor 7',
+          label: `Sensor ${id[0]}`,
           backgroundColor: 'rgb(255, 99, 132)',
           borderColor: 'rgb(255, 99, 132)',
           data: dados,
@@ -72,5 +83,5 @@ setTimeout(
         document.getElementsByClassName('myChart'),
         config
     );
-}),  180000
+}),  18000
 )

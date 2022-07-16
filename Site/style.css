@@ -1,3 +1,15 @@
 body{
-    background-color: rgba(0, 0, 0, 0.124);
+    background-color: rgba(0, 128, 0, 0.564);
+}
+.divChart{
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 20px;
+
+    width: 80%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
