@@ -25,7 +25,7 @@ function collectDate(dataJson){
         }
     })  
 
-    return dados
+    return dados.reverse()
 }
 
 function collectId(dataJson){
@@ -87,20 +87,28 @@ getData(url, 16)
           label: `Sensor ${id[0]}`,
           backgroundColor: 'rgb(255, 99, 132)',
           borderColor: 'rgb(255, 99, 132)',
-          data: dataSeparated[0],
+          data: dataSeparated[0].reverse(),
+          tension: 0.3
         },
         {
         label: `Sensor ${id[1]}`,
         backgroundColor: 'rgb(0, 99, 132)',
         borderColor: 'rgb(0, 99, 132)',
-        data: dataSeparated[1],
+        data: dataSeparated[1].reverse(),
+        tension: 0.3
         }
     ],
     };
     
     const config = {
         type: 'line',
-        data: data
+        data: data,
+        options:{
+            y: {
+                min: 0,
+                max: 100
+            }
+        }
     };
     
     const myChart = new Chart(
