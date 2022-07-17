@@ -70,7 +70,7 @@ function separateData(dataJson){
     return data
 }
 
-getData(url, 16)
+getData(url, 32)
 .then(response =>{
     // console.log(response)
     
@@ -85,15 +85,15 @@ getData(url, 16)
         labels: labels,
         datasets: [{
           label: `Sensor ${id[0]}`,
-          backgroundColor: 'rgb(255, 99, 132)',
-          borderColor: 'rgb(255, 99, 132)',
+          backgroundColor: 'rgb(255, 0, 132)',
+          borderColor: 'rgb(255, 0, 150)',
           data: dataSeparated[0].reverse(),
           tension: 0.3
         },
         {
         label: `Sensor ${id[1]}`,
-        backgroundColor: 'rgb(0, 99, 132)',
-        borderColor: 'rgb(0, 99, 132)',
+        backgroundColor: 'rgb(0, 50, 132)',
+        borderColor: 'rgb(0, 50, 132)',
         data: dataSeparated[1].reverse(),
         tension: 0.3
         }
