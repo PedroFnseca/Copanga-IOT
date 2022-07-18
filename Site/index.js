@@ -70,7 +70,7 @@ function separateData(dataJson){
     return data
 }
 
-getData(url, 32)
+getData(url, 16)
 .then(response =>{
     // console.log(response)
     
