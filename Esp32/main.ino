@@ -1,30 +1,27 @@
-//Bibliotecas a serem utilizadas, biblioteca para conexão WiFi e para utilizar o protocolo HTTP
+#include <ESPmDNS.h>
+#include <WiFiUdp.h>
+#include <ArduinoOTA.h>
 #include <HTTPClient.h>
 #include <WiFi.h>
 
-//Configuração de nome e senha da rede WiFi a ser conenctada
-#define STASSID "Theodoro_2.4G"
-#define STAPSK  "20011999"
-
-//Senha para se comunicar com a API
-#define apiKey "\"Copanga7\""
-
-//Endereços para enviar os pacotes sobre os sensores e válvulas
 const String SensorAPI = "http://api-irrigacao.herokuapp.com/sensor";
 const String ValvulaAPI = "http://api-irrigacao.herokuapp.com/valvula";
 
-//Funcionamento interno
-int sensor[1];
-int SensorSensivity = 550;
+//Nome e senha do WiFi
+#define STASSID "Theodoro_2.4G"
+#define STAPSK  "20011999"
+
+//int idSensor = 7;
+int valorSensor[2];
 int measurementInterval = 10;
 int millisData = 0;
 
+//Senha da API
+#define apiKey "\"Copanga7\""
 
-//função responsável por retornar o json com os valores de sensore ou válvulas
 String json(String caminho, int id, int value)
 {
   String jsonPayload;
-  
   //verifica se o json é para o sensor ou para as valvulas
   if(caminho == "sensor")
   {
@@ -38,8 +35,6 @@ String json(String caminho, int id, int value)
   
 }
 
-
-//Função que efetua a requisição à API e retorna no monitor Serial qual a resposta do body
 void postHTTP(String endereco, String payload)
 {
   WiFiClient client;
@@ -66,48 +61,16 @@ void postHTTP(String endereco, String payload)
       Serial.println(bodyGET);
       Serial.println(">>");
     }
-  }else{
+    } else {
       Serial.printf("Ocorreu erro ao enviar a requisição POST, erro: %s\n", http.errorToString(httpCode).c_str());
     }
-  //Finaliza a comunicação
-  http.end();  
+    http.end();  
 }
 
-//Função que mede a umidade do solo em cada sensor
-void humidityMeasurement()
-{
-  for(int i = 0; i >= sizeof(sensor); i++)
-  {
-    //O indice do vetor é correspondente ao index do for e o terminal a ser medido também
-    sensor[i] = analogRead(i);
 
-    //se a umidade no sensor for menor que a sensibilidade pre-determinada ele enviará o valor para API e executará uma função para acionar a válvula solenoide
-    if(sensor[i] <= SensorSensivity)
-    {
-      Serial.print("Solo seco, sensor" + i);
-      //comando para enviar requisição para o sensor, primeiro parametro é o endereço, e o segundo é um objeto String que retorna formatado o json
-      postHTTP(SensorAPI, json("sensor", i, sensor[i]));
-      //acionaValvula();
-    }
-  }
-}
-
-void setup() {
-  // put your setup code here, to run once:
+void setup() {  
   Serial.begin(115200);
 
-  //definir os terminais de 0 a 5 como pinos de leitura referentes aos sensores de umidade
-  for(int i = 0; i = 5; i++)
-  {
-    pinMode(i, INPUT);
-  }
-
-  //terminais 6 e 7 como saída, referentes às valvulas
-  pinMode(7, OUTPUT);
-  pinMode(6, OUTPUT);
-
-  Serial.println();
-  Serial.println();
   Serial.println();
 
   //inicia a conexão WiFi
@@ -120,29 +83,66 @@ void setup() {
   Serial.println("");
   Serial.print("Connected! IP address: ");
   Serial.println(WiFi.localIP());
+
+
+
+  //OTA
+
+  // Port defaults to 3232
+  // ArduinoOTA.setPort(3232);
+
+  // Hostname defaults to esp3232-[MAC]
+  // ArduinoOTA.setHostname("myesp32");
+
+  // No authentication by default
+  // ArduinoOTA.setPassword("admin");
+
+  // Password can be set with it's md5 value as well
+  // MD5(admin) = 21232f297a57a5a743894a0e4a801fc3
+  // ArduinoOTA.setPasswordHash("21232f297a57a5a743894a0e4a801fc3");
+
+  ArduinoOTA
+    .onStart([]() {
+      String type;
+      if (ArduinoOTA.getCommand() == U_FLASH)
+        type = "sketch";
+      else // U_SPIFFS
+        type = "filesystem";
+
+      // NOTE: if updating SPIFFS this would be the place to unmount SPIFFS using SPIFFS.end()
+      Serial.println("Start updating " + type);
+    })
+    .onEnd([]() {
+      Serial.println("\nEnd");
+    })
+    .onProgress([](unsigned int progress, unsigned int total) {
+      Serial.printf("Progress: %u%%\r", (progress / (total / 100)));
+    })
+    .onError([](ota_error_t error) {
+      Serial.printf("Error[%u]: ", error);
+      if (error == OTA_AUTH_ERROR) Serial.println("Auth Failed");
+      else if (error == OTA_BEGIN_ERROR) Serial.println("Begin Failed");
+      else if (error == OTA_CONNECT_ERROR) Serial.println("Connect Failed");
+      else if (error == OTA_RECEIVE_ERROR) Serial.println("Receive Failed");
+      else if (error == OTA_END_ERROR) Serial.println("End Failed");
+    });
+
+  ArduinoOTA.begin();
 }
 
-void loop() { 
+void loop() {
+  ArduinoOTA.handle();
+  valorSensor[0] = analogRead(35);
+  //valorSensor[1] = analogRead(34);
   //Espera pela conexão WiFi
   if ((WiFi.status() == WL_CONNECTED)) {
-    //Caso haja internet e medirá a todo instante a umidade do soloe tomará decisões
-    humidityMeasurement();
-    
-    //A cada 10 minutos envia a requisição
     if(millis() - millisData >= (measurementInterval * 60000))
     {
-      //reiniciando ciclo de contagem
       millisData = millis();
-
+      int randomNumber = random(4096);
       //comando para enviar requisição para o sensor, primeiro parametro é o endereço, e o segundo é um objeto String que retorna formatado o json
-      for(int i = 0; i >= sizeof(sensor); i++)
-      {
-        //O indice do vetor é correspondente ao index do for e o terminal a ser medido também
-        sensor[i] = analogRead(i);
-        
-        //comando para enviar requisição para o sensor, primeiro parametro é o endereço, e o segundo é um objeto String que retorna formatado o json
-        postHTTP(SensorAPI, json("sensor", i, sensor[i]));
-      }
+      postHTTP(SensorAPI, json("sensor", 0, map(valorSensor[0], 0, 4095, 100, 0)));
+      postHTTP(SensorAPI, json("sensor", 1, map(randomNumber, 0, 4095, 0, 100)));
     }
   }
 }
