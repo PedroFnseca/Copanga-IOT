@@ -21,3 +21,17 @@
 - ### Utilizamos o microcontrolador Esp32 para fazer o monitoramento dos sensores e controle de válvulas enviando os dados para uma API.
 
 ![Irrigação - Descrição funcionamento TCC](https://user-images.githubusercontent.com/97262778/179148177-cf6df30b-cb0a-46c7-ba9a-03c1241beca0.png)
+
+<br>
+
+> # Tecnologias utilizadas 🛠️
+<p align="center"> 
+<img src="https://img.icons8.com/color/60/000000/javascript--v1.png"/>
+<img src="https://img.icons8.com/color/60/000000/html-5--v1.png"/>
+<img src="https://img.icons8.com/color/60/000000/css3.png"/>
+<img src="https://img.icons8.com/color/60/000000/mysql-logo.png"/>
+<img src="https://img.icons8.com/fluency/60/000000/arduino.png"/>
+<img src="https://img.icons8.com/color/60/000000/nodejs.png"/>
+<img src="https://img.icons8.com/color/60/000000/heroku.png"/>
+<img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/60/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png"/>
+<p>
