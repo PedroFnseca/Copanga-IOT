@@ -17,9 +17,9 @@ function collectValue(dataJson){
 
 function collectDate(dataJson){
     let dados = []
-    dataJson.map((data) =>{
 
-        const date = formatdate(data.dataHora, false)
+    dataJson.map((data) =>{
+        const date = formatdate(data.dataHora)
         if(!dados.includes(date)){
             return dados.push(date)
         }
@@ -39,20 +39,14 @@ function collectId(dataJson){
     return id
 }
 
-function formatdate(date, format){
+function formatdate(date){
     const YMD = date.split('T')
     const separatedDate = YMD[0].split('-')
     const separatedHour = YMD[1].split(':')
 
     var hourString = `${separatedHour[0]}:${separatedHour[1]}`
-    var dateString = `${separatedDate[2]}-${separatedDate[1]}`
-
-    if(format){
-        return `${hourString} ${dateString}`
-    } 
-    else {
-        return `${hourString}`
-    }
+    
+    return `${hourString}`
 }
 
 function separateData(dataJson){
@@ -66,18 +60,40 @@ function separateData(dataJson){
             data[1].push(dataMap.valorSensor)
         }
     })
-
     return data
+}
+
+function collectDays(dataJson){
+    var days = []
+
+    dataJson.map(dataMap =>{
+        const {dataHora} = dataMap
+        const YMD = dataHora.split('T')
+        const date = YMD[0].split('-')
+        const dateFormated = `${date[2]}-${date[1]}`
+        
+        if(!days.includes(dateFormated)) days.push(dateFormated)
+    })
+
+    if(days.length > 1){
+        const firstDay = days.pop()
+        const lastday = days[0]
+        return `${firstDay} a ${lastday}`
+    }
+    else{
+        return days[0]
+    }
 }
 
 getData(url, 16)
 .then(response =>{
     // console.log(response)
     
-    const dados = collectValue(response)
+    // const dados = collectValue(response)
     const labels = collectDate(response)
     const id = collectId(response)
     const dataSeparated = separateData(response)
+    const days = collectDays(response)
 
     console.log(dataSeparated)
 
@@ -107,6 +123,16 @@ getData(url, 16)
             y: {
                 min: 0,
                 max: 100
+            },
+            plugins:{
+                title:{
+                    display: true,
+                    text: `Sensores de umidade`
+                },
+                subtitle:{
+                    display: true,
+                    text: `Dados de ${days}`
+                }
             }
         }
     };
