@@ -4,9 +4,10 @@ body{
 .divChart{
     background-color: whitesmoke;
     border-radius: 30px;
-    padding: 20px;
+    padding: 15px;
 
-    width: 80%;
+    width: 80vw;
+    height: 80%;
 
     position: absolute;
     top: 50%;

@@ -85,7 +85,7 @@ function collectDays(dataJson){
     }
 }
 
-getData(url, 16)
+getData(url, 12)
 .then(response =>{
     // console.log(response)
     
@@ -116,29 +116,42 @@ getData(url, 16)
     ],
     };
     
+    const options = {
+        scales:{
+            y: {
+                max: 100,
+                min: 0,
+            ticks: {
+                stepSize: 20
+            }
+            }
+        },
+        plugins:{
+            title:{
+                display: true,
+                text: `Sensores de umidade`
+            },
+            subtitle:{
+                display: true,
+                text: `Dados de ${days}`
+            }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        aspectRatio: 0.6
+    }
+
     const config = {
         type: 'line',
         data: data,
-        options:{
-            y: {
-                min: 0,
-                max: 100
-            },
-            plugins:{
-                title:{
-                    display: true,
-                    text: `Sensores de umidade`
-                },
-                subtitle:{
-                    display: true,
-                    text: `Dados de ${days}`
-                }
-            }
-        }
-    };
-    
-    const myChart = new Chart(
-        document.getElementsByClassName('myChart'),
+        options: options
+    }
+
+
+    const myChart = document.getElementsByClassName('myChart')
+
+    const canvasChart = new Chart(
+        myChart,
         config
     );
 })
