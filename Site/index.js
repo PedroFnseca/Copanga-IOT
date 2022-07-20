@@ -122,23 +122,25 @@ getData(url, 12)
                 max: 100,
                 min: 0,
             ticks: {
-                stepSize: 20
+                stepSize: 10
             }
             }
         },
         plugins:{
             title:{
                 display: true,
-                text: `Sensores de umidade`
+                text: `Sensores de umidade`,
+                font: {size: 18}
             },
             subtitle:{
                 display: true,
-                text: `Dados de ${days}`
+                text: `Dados de ${days}`,
+                font: {size: 16}
             }
         },
         responsive: true,
         maintainAspectRatio: false,
-        aspectRatio: 0.6
+        aspectRatio: 1
     }
 
     const config = {
@@ -146,7 +148,6 @@ getData(url, 12)
         data: data,
         options: options
     }
-
 
     const myChart = document.getElementsByClassName('myChart')
 
