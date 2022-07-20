@@ -41,7 +41,6 @@ function collectId(dataJson){
 
 function formatdate(date){
     const YMD = date.split('T')
-    const separatedDate = YMD[0].split('-')
     const separatedHour = YMD[1].split(':')
 
     var hourString = `${separatedHour[0]}:${separatedHour[1]}`
