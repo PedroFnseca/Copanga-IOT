@@ -84,7 +84,7 @@ function collectDays(dataJson){
     }
 }
 
-getData(url, 12)
+getData(url, 14)
 .then(response =>{
     // console.log(response)
     
@@ -100,21 +100,21 @@ getData(url, 12)
         labels: labels,
         datasets: [{
           label: `Sensor ${id[0]}`,
-          backgroundColor: 'rgb(255, 0, 132)',
-          borderColor: 'rgb(255, 0, 150)',
+          backgroundColor: '#8c0e48',
+          borderColor: '#8c0e48',
           data: dataSeparated[0].reverse(),
-          tension: 0.3,
+          tension: 0.2,
           pointStyle: 'circle',
-          pointRadius: 5,
+          pointRadius: 5.5,
         },
         {
         label: `Sensor ${id[1]}`,
-        backgroundColor: 'rgb(0, 50, 132)',
-        borderColor: 'rgb(0, 50, 132)',
+        backgroundColor: '#80ab99',
+        borderColor: '#80ab99',
         data: dataSeparated[1].reverse(),
-        tension: 0.3,
+        tension: 0.2,
         pointStyle: 'circle',
-        pointRadius: 5,
+        pointRadius: 5.5,
         }
     ],
     };
