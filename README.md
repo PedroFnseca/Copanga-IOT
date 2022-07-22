@@ -1,8 +1,8 @@
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-EM DESENVOLVIMENTO-green.svg"/>
+<img src="https://img.shields.io/github/contributors/pedrofnseca/copanga.svg"/>
 </p>
 
-<br>
 
 > # O que é [COPANGA](https://copanga.netlify.app/) 🤔
 ### Trabalho de conclusão de curso da [ETEC de Embu](https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=394) em NOVOTEC [Automação industrial](https://www.vestibulinhoetec.com.br/unidades-cursos/curso.asp?c=402)
