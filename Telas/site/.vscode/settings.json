@@ -1,0 +1,5 @@
+{
+    "terminal.integrated.allowChords": true,
+    "terminal.explorerKind": "integrated",
+    "terminal.integrated.defaultProfile.linux": null
+}
