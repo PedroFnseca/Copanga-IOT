@@ -36,7 +36,7 @@ function collectId(dataJson){
         }
     })
 
-    return id
+    return id.reverse()
 }
 
 function formatdate(date){
