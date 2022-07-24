@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Button } from 'react-bootstrap'
 import api from '../../Service/api'
 import Linechart from '../Charts/Linechart'
@@ -78,15 +78,15 @@ function AllSensorChart() {
                 labels: labels.reverse(),
                 datasets: datasets
             }
-            console.log(datasets)
+            console.log(dataChart)
             return dataChart // Retornando o objeto para o gráfico
         })
     }
 
     return (
     <div>
-        <h1>Gráfico de todos os sensores</h1>
-        <Button variant="primary" onClick={getChartData}>Teste</Button>
+        {/* Tentar passar uma promisse por props */}
+        {/* <Linechart onLoad={getChartData} /> */}
     </div>
     )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 import { Line } from 'react-chartjs-2'
 
-function Linechart(dataChart) {
+function Linechart(props) {
   return (
     <div>
-      <Line data={dataChart} />
+      <Line data={props.dataChart}/>
     </div>
   )
 }
