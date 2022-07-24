@@ -34,19 +34,7 @@ router.post('/', [
     }
 })
 
-router.get('/allData',[
-    body('key').notEmpty().withMessage('Key vazia')
-], async (req, res) =>{
-
-    const errosValidation = validationResult(req)
-
-    if(!errosValidation.isEmpty()){
-        return res.status(400).json({erros: errosValidation.array()})
-    }
-
-    const {key} = req.body
-
-    if(key != keyApi) res.status(401).end()
+router.get('/allData', async (req, res) =>{
 
     try {
         const results = await db.getAllDataValvula()
@@ -62,19 +50,7 @@ router.get('/allData',[
     }
 })
 
-router.get('/allDataCount',[
-    body('key').notEmpty().withMessage('key vazia')
-], async (req, res)=>{
-
-    const errosValidation = validationResult(req)
-
-    if(!errosValidation.isEmpty()){
-        return res.status(400).json({erros: errosValidation.array()})
-    }
-
-    const {key} = req.body
-
-    if(key != keyApi) res.status(401).end()
+router.get('/allDataCount', async (req, res)=>{
 
     try {
         const results = await db.getAllDataValvulaCount()
@@ -85,7 +61,6 @@ router.get('/allDataCount',[
 })
 
 router.get('/allDataId',[
-    body('key').notEmpty().withMessage('key vazia'),
     body('idSensor').notEmpty().isNumeric().withMessage('id inválido')
 ], async (req, res)=>{
 
@@ -95,9 +70,7 @@ router.get('/allDataId',[
         return res.status(400).json({erros: errosValidation.array()})
     }
 
-    const {key, idSensor} = req.body
-
-    if(key != keyApi) res.status(401).end()
+    const {idSensor} = req.body
 
     try {
         const results = await db.getAllDataValvulaByID(idSensor)
@@ -114,7 +87,6 @@ router.get('/allDataId',[
 })
 
 router.get('/lastData',[
-    body('key').notEmpty().withMessage('key vazia'),
     body('last').notEmpty().withMessage('Last invalido')
 ], async (req, res)=>{
 
@@ -124,9 +96,7 @@ router.get('/lastData',[
         return res.status(400).json({erros: errosValidation.array()})
     }
 
-    const {key, last} = req.body
-
-    if(key != keyApi) res.status(401).end()
+    const {last} = req.body
 
     try {
         const results = await db.getLastDataValvula(last)
