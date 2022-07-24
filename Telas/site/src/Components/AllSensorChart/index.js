@@ -5,6 +5,12 @@ import Linechart from '../Charts/Linechart'
 
 function AllSensorChart() {
 
+    function random(min, max) {
+        const num = Math.floor(Math.random() * max) - min
+        if(num < 0) return num * -1 // Se o numero for negativo, retorna o numero positivo
+        return num
+    }
+
     // Função para buscar os dados do sensor na API
     async function getData() {
         try{
@@ -31,7 +37,7 @@ function AllSensorChart() {
             const labels = hour.filter((este, i) => hour.indexOf(este) === i)
 
             // Separa os dados de cada sensor para cada array
-            const dados = [[], [], [], [], [], [], []]  // sensor1, sensor2, sensor3 ...
+            const dados = [[], [], [], [], [], [], [], [], []]  // sensor1, sensor2, sensor3 ...
             const valueSensor = []
             data.map(item => {
                 const {valorSensor, id_sensor} = item
@@ -48,12 +54,17 @@ function AllSensorChart() {
             const datasets = []
             // Gerando dataset de acordo com o número de sensores
             for(let i = 0; i < valueSensor.length; i++){
+
+                // Gerando cores aleatórias
+                const r = random((i + 13) * (i + 12), 255) // Red
+                const g = random((i + 13) * (i + 12), 255) // Green
+                const b = random((i + 13) * (i + 12), 255) // Blue
+
                 datasets.push({
                     label: `Sensor ${i}`,
                     data: valueSensor[i].reverse(),
-                    // Gerando cores aleatórias
-                    backgroundColor: `rgb(${((i+5)*2) * 5}, ${((i+10)*2) * 5}, ${((i+8)*2) * 5})`,
-                    borderColor: `rgb(${((i+5)*2) * 5}, ${((i+10)*2) * 5}, ${((i+8)*2) * 5}`,
+                    backgroundColor: `rgb(${r}, ${g}, ${b})`,
+                    borderColor: `rgb(${r}, ${g}, ${b})`,
                     borderWidth: 1,
                     tension: 0.2,
                     pointStyle: 'circle',
