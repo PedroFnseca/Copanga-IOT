@@ -22,7 +22,6 @@ https://api-irrigacao.herokuapp.com/sensor
 
 > # Coletando dados dos sensores 🛰
 #### URL (GET)
-  #### Todos recebem o parâmetro "key"
      1- Todos os registros com seus valores
      2- Todos os registros do id (parâmetro adicional "idSensor")
      3- Números de registros
@@ -55,7 +54,6 @@ https://api-irrigacao.herokuapp.com/valvula
 
 > # Coletando os dados das Valvulas 💧
 #### URL (GET)
-  #### Todos recebem o parâmetro "key"
     1- Todos os registros com seus dados
     2- Todos os registros do id (parâmetro adicional "idValvula")
     3- Números de registros
