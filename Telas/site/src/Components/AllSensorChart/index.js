@@ -71,6 +71,23 @@ function AllSensorChart() {
                     pointRadius: 5.5
                 })
             }
+            const days = []
+            // Coletando os dias referentes aos dados
+            data.map(item => {
+                const {dataHora} = item
+                const YMD = dataHora.split('T')
+                const date = YMD[0].split('-')
+                const dateFormated = `${date[2]}-${date[1]}`
+                if(!days.includes(dateFormated)) days.push(dateFormated)
+            })
+
+            // Determinando os dias referentes aos dados na váriavel legend
+            let legend = '' // Legendas do gráfico
+                if(days.length > 1) legend = `${days.pop()} a ${days[0]}`
+                else legend = days[0]
+            
+            // Titulo do gráfico    
+            const title = 'Sensores de umidade'
 
             // Dados do gráfico
             const dataChart = {
@@ -78,7 +95,8 @@ function AllSensorChart() {
                 labels: labels.reverse(),
                 datasets: datasets
             }
-            console.log(dataChart)
+
+            console.log(legend)
             return dataChart // Retornando o objeto para o gráfico
         })
     }
@@ -86,6 +104,7 @@ function AllSensorChart() {
     return (
     <div>
         {/* Tentar passar uma promisse por props */}
+        <Button onClick={getChartData}>clique me</Button>
         {/* <Linechart onLoad={getChartData} /> */}
     </div>
     )
