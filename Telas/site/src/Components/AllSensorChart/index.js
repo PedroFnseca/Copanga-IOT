@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
 import api from '../../Service/api'
 import Linechart from '../Charts/Linechart'
 
@@ -73,7 +74,8 @@ function AllSensorChart() {
 
     return (
     <div>
-        <button onClick={getChartData}>Get Chart Data</button>
+        <h1>Gráfico de todos os sensores</h1>
+        <Button variant="primary" onClick={getChartData}>Teste</Button>
     </div>
     )
 }
