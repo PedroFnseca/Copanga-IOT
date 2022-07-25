@@ -1,0 +1,3069 @@
+{
+	"results": [
+		{
+			"dataHora": "2022-07-23T17:59:50.000Z",
+			"valorSensor": 0,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T17:49:49.000Z",
+			"valorSensor": 6,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T17:39:50.000Z",
+			"valorSensor": 6,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T17:29:50.000Z",
+			"valorSensor": 7,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T17:19:49.000Z",
+			"valorSensor": 9,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T17:09:50.000Z",
+			"valorSensor": 11,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T16:59:50.000Z",
+			"valorSensor": 18,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T16:29:51.000Z",
+			"valorSensor": 12,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T16:19:51.000Z",
+			"valorSensor": 14,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T16:09:51.000Z",
+			"valorSensor": 15,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T15:59:51.000Z",
+			"valorSensor": 16,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T15:49:51.000Z",
+			"valorSensor": 17,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T15:34:20.000Z",
+			"valorSensor": 18,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T15:24:20.000Z",
+			"valorSensor": 19,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T15:14:20.000Z",
+			"valorSensor": 20,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T15:04:20.000Z",
+			"valorSensor": 20,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T14:54:20.000Z",
+			"valorSensor": 20,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T14:44:20.000Z",
+			"valorSensor": 21,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T14:34:20.000Z",
+			"valorSensor": 22,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T14:24:20.000Z",
+			"valorSensor": 22,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T14:14:20.000Z",
+			"valorSensor": 23,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T14:04:20.000Z",
+			"valorSensor": 24,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T13:54:20.000Z",
+			"valorSensor": 25,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T13:44:20.000Z",
+			"valorSensor": 27,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T13:34:20.000Z",
+			"valorSensor": 27,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T13:24:20.000Z",
+			"valorSensor": 31,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T13:14:20.000Z",
+			"valorSensor": 32,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T13:04:20.000Z",
+			"valorSensor": 33,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T12:54:20.000Z",
+			"valorSensor": 33,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T12:44:20.000Z",
+			"valorSensor": 33,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T12:34:20.000Z",
+			"valorSensor": 34,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T12:24:20.000Z",
+			"valorSensor": 35,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T12:14:20.000Z",
+			"valorSensor": 36,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T12:04:20.000Z",
+			"valorSensor": 38,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T11:54:20.000Z",
+			"valorSensor": 40,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T11:44:20.000Z",
+			"valorSensor": 41,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T11:34:20.000Z",
+			"valorSensor": 43,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T11:24:20.000Z",
+			"valorSensor": 45,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T11:14:20.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T11:04:20.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T10:54:20.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T10:37:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T10:27:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T10:17:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T10:07:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T09:57:22.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T09:47:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T09:37:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T09:17:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T09:07:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T08:57:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T08:47:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T08:37:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T08:27:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T08:17:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T08:07:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T07:57:22.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T07:47:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T07:37:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T07:27:19.000Z",
+			"valorSensor": 46,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T07:17:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T07:07:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T06:57:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T06:47:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T06:37:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T06:27:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T06:17:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T06:07:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T05:57:22.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T05:47:19.000Z",
+			"valorSensor": 47,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T05:37:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T05:17:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T05:07:19.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T04:57:25.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T04:47:19.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T04:37:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T04:27:19.000Z",
+			"valorSensor": 48,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T04:17:19.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T04:07:19.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T03:47:19.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T03:37:19.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T03:27:19.000Z",
+			"valorSensor": 49,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T03:17:19.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T03:07:19.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T02:47:19.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T02:37:19.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T02:27:27.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T02:17:19.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T02:07:19.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T01:57:28.000Z",
+			"valorSensor": 51,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T01:47:19.000Z",
+			"valorSensor": 50,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T01:37:19.000Z",
+			"valorSensor": 51,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T01:27:27.000Z",
+			"valorSensor": 51,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T01:17:19.000Z",
+			"valorSensor": 51,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T01:07:19.000Z",
+			"valorSensor": 52,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T00:57:22.000Z",
+			"valorSensor": 51,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T00:47:19.000Z",
+			"valorSensor": 51,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T00:37:19.000Z",
+			"valorSensor": 51,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T00:27:20.000Z",
+			"valorSensor": 52,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T00:17:19.000Z",
+			"valorSensor": 52,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-23T00:07:19.000Z",
+			"valorSensor": 52,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T23:57:19.000Z",
+			"valorSensor": 53,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T23:47:19.000Z",
+			"valorSensor": 52,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T23:37:19.000Z",
+			"valorSensor": 53,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T23:27:20.000Z",
+			"valorSensor": 52,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T23:17:19.000Z",
+			"valorSensor": 53,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T23:07:19.000Z",
+			"valorSensor": 53,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T22:57:19.000Z",
+			"valorSensor": 53,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T22:47:19.000Z",
+			"valorSensor": 53,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T22:37:19.000Z",
+			"valorSensor": 53,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T19:07:36.000Z",
+			"valorSensor": 56,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T18:57:36.000Z",
+			"valorSensor": 56,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T18:47:36.000Z",
+			"valorSensor": 57,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T18:37:36.000Z",
+			"valorSensor": 57,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T18:27:36.000Z",
+			"valorSensor": 57,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T18:17:36.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T18:07:36.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T17:57:36.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T17:47:36.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T17:37:36.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T17:27:36.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T17:17:36.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T17:07:36.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T16:57:36.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T16:47:36.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T16:37:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T16:27:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T16:17:36.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T16:07:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T15:57:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T15:47:36.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T15:37:36.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T15:27:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T15:17:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T15:07:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T14:57:36.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T14:47:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T14:37:36.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T14:27:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T14:17:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T14:07:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T13:57:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T13:47:36.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T13:37:36.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T13:27:36.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T13:17:36.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T13:07:36.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T12:57:36.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T12:36:34.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T12:06:34.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T11:36:34.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T11:06:34.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T10:36:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T10:06:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T09:36:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T09:06:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T08:36:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T08:06:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T07:36:34.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T07:06:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T06:36:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T06:06:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T05:36:34.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T05:06:34.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T04:36:34.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T04:06:34.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T03:36:34.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T03:06:34.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T02:36:34.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T02:06:34.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T01:36:34.000Z",
+			"valorSensor": 62,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T01:06:34.000Z",
+			"valorSensor": 62,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T00:36:33.000Z",
+			"valorSensor": 63,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-22T00:06:34.000Z",
+			"valorSensor": 62,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T23:36:34.000Z",
+			"valorSensor": 63,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T23:06:34.000Z",
+			"valorSensor": 63,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T22:36:34.000Z",
+			"valorSensor": 63,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T22:06:34.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T21:36:33.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T21:06:34.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T20:36:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T20:06:34.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T19:36:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T19:06:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T18:36:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T18:06:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T17:36:33.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T17:06:33.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T16:36:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T16:06:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T15:36:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T15:06:33.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T14:36:34.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T14:06:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T13:36:34.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T11:54:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T11:24:53.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T10:54:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T10:24:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T09:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T09:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T08:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T08:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T07:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T07:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T06:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T06:24:52.000Z",
+			"valorSensor": 63,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T05:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T05:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T04:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T04:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T03:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T03:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T02:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T02:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T01:54:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T01:24:52.000Z",
+			"valorSensor": 64,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T00:54:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-21T00:24:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T23:54:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T23:24:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T22:54:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T22:24:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T21:54:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T21:24:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T20:54:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T20:24:52.000Z",
+			"valorSensor": 65,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T19:54:52.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T19:24:52.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T18:54:52.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T18:24:52.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T17:54:52.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T17:24:52.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T16:54:53.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T13:17:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T12:47:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T12:17:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T11:47:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T11:17:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T10:47:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T10:17:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T09:47:53.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T09:17:53.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T08:47:52.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T08:17:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T07:47:52.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T07:17:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T06:47:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T06:17:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T05:47:53.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T05:17:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T04:47:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T04:17:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T03:47:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T03:17:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T02:47:57.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T01:47:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T01:17:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T00:47:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-20T00:17:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T23:47:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T23:17:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T22:47:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T22:17:52.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T21:47:52.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T21:17:53.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T20:47:52.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T20:17:52.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T19:47:52.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T19:17:53.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T18:47:52.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T18:17:53.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T17:47:53.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T17:17:53.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T16:47:52.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T16:17:52.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T15:47:53.000Z",
+			"valorSensor": 74,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T15:17:52.000Z",
+			"valorSensor": 74,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T14:47:52.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T14:17:52.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T13:47:52.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T13:17:52.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T12:47:52.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T12:17:52.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T11:47:53.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T03:55:31.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T03:25:31.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T02:55:31.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T02:25:31.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T01:55:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T01:25:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T00:55:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-19T00:25:31.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T23:55:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T23:25:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T22:55:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T22:25:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T21:55:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T21:25:31.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T20:55:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T20:25:31.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T19:53:10.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T19:48:10.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T19:36:19.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T19:26:19.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T19:16:19.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T19:06:19.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T18:56:19.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T18:46:19.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T18:35:50.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T18:25:49.000Z",
+			"valorSensor": 73,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T17:55:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T17:45:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T17:35:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T17:25:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T17:15:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T17:05:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T16:55:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T16:35:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T16:25:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T16:15:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T16:05:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T15:55:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T15:45:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T15:35:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T15:25:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T15:15:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T15:05:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T14:55:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T14:45:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T14:35:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T14:25:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T14:15:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T14:05:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T13:55:45.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T13:45:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T13:35:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T13:25:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T13:15:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T13:05:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T12:55:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T12:45:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T12:35:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T12:25:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T12:15:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T12:05:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T11:55:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T11:45:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T11:35:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T11:25:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T11:15:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T11:05:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T10:55:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T10:45:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T10:35:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T10:25:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T10:15:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T10:05:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T09:55:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T09:45:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T09:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T09:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T09:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T09:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T08:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T08:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T08:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T08:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T08:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T08:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T07:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T07:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T07:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T07:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T07:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T07:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T06:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T06:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T06:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T06:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T06:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T06:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T05:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T05:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T05:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T05:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T05:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T05:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T04:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T04:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T04:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T04:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T04:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T04:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T03:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T03:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T03:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T03:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T03:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T03:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T02:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T02:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T02:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T02:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T02:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T02:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T01:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T01:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T01:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T01:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T01:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T01:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T00:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T00:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T00:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T00:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T00:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-18T00:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T23:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T23:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T23:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T23:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T23:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T23:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T22:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T22:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T22:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T22:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T22:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T22:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T21:55:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T21:45:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T21:35:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T21:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T21:15:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T21:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T20:55:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T20:45:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T20:35:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T20:25:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T20:15:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T20:05:45.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T19:55:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T19:45:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T19:35:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T19:25:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T19:15:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T19:05:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T18:55:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T18:45:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T18:35:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T18:25:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T18:15:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T18:05:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T17:55:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T17:45:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T17:35:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T17:25:45.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T17:15:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T17:05:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T16:55:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T16:45:45.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T16:34:52.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T16:33:52.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T16:32:52.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T16:27:12.000Z",
+			"valorSensor": 72,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T16:06:00.000Z",
+			"valorSensor": 0,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T15:56:00.000Z",
+			"valorSensor": 0,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T15:46:00.000Z",
+			"valorSensor": 0,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T15:36:00.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T15:26:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T15:06:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T14:56:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T14:46:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T14:36:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T14:26:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T14:16:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T14:06:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T13:56:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T13:46:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T13:36:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T13:26:01.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T13:16:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T13:06:01.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T12:56:00.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T12:34:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T12:24:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T12:14:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T12:04:53.000Z",
+			"valorSensor": 71,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T11:54:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T11:44:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T11:34:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T11:24:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T11:14:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T11:04:53.000Z",
+			"valorSensor": 70,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T10:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T10:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T10:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T10:24:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T10:14:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T10:04:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T09:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T09:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T09:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T09:24:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T09:14:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T09:04:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T08:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T08:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T08:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T08:24:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T08:14:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T08:04:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T07:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T07:44:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T07:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T07:24:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T07:14:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T07:04:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T06:54:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T06:44:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T06:34:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T06:24:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T06:14:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T06:04:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T05:54:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T05:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T05:34:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T05:24:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T05:14:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T05:04:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T04:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T04:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T04:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T04:24:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T04:14:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T04:04:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T03:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T03:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T03:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T03:24:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T03:14:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T03:04:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T02:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T02:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T02:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T02:24:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T02:14:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T02:04:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T01:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T01:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T01:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T01:24:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T01:14:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T01:04:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T00:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T00:44:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T00:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T00:24:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T00:14:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-17T00:04:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T23:54:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T23:44:52.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T23:34:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T23:24:53.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T23:14:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T23:04:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T22:54:52.000Z",
+			"valorSensor": 69,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T22:44:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T22:34:53.000Z",
+			"valorSensor": 68,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T22:24:52.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T22:14:52.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T22:01:51.000Z",
+			"valorSensor": 0,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T22:00:50.000Z",
+			"valorSensor": 0,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:58:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:57:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:56:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:55:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:54:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:53:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:52:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:51:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:50:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:49:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:48:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:47:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:46:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:45:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:44:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:43:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:42:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:41:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:40:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:39:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:38:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:37:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:36:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:35:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:34:14.000Z",
+			"valorSensor": 66,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:33:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:32:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:31:14.000Z",
+			"valorSensor": 67,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:30:14.000Z",
+			"valorSensor": 62,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:29:14.000Z",
+			"valorSensor": 62,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:28:14.000Z",
+			"valorSensor": 62,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:27:14.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:26:14.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:25:14.000Z",
+			"valorSensor": 61,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:24:14.000Z",
+			"valorSensor": 60,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:23:14.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:22:14.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:21:14.000Z",
+			"valorSensor": 59,
+			"id_sensor": 0
+		},
+		{
+			"dataHora": "2022-07-16T21:20:17.000Z",
+			"valorSensor": 58,
+			"id_sensor": 0
+		}
+	]
+}
