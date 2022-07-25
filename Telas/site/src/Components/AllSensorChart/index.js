@@ -93,7 +93,7 @@ function AllSensorChart() {
             datasets: datasets
         }
 
-        console.log(legend)
+        console.log('foi')
         return [dataChart, legend] // Retornando dados do gráfico e legendas
     }
 
@@ -132,12 +132,9 @@ function AllSensorChart() {
                         y: {
                             max: 100,
                             min: 0,
-                        ticks: {
-                            stepSize: 10
+                            ticks: {stepSize: 10},    
+                            }
                         },
-                        position: 'left'
-                        }
-                    },
                     plugins:{
                         title:{
                             display: true,
@@ -151,7 +148,7 @@ function AllSensorChart() {
                         }
                     },
                     responsive: true,
-                    maintainAspectRatio: true
+                    maintainAspectRatio: false
                 }
             )
         })
