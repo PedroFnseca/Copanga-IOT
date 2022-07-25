@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react'
-import { Button } from 'react-bootstrap'
 import api from '../../Service/api'
 import Linechart from '../Charts/Linechart'
 
