@@ -4,9 +4,6 @@
 #include <HTTPClient.h>
 #include <WiFi.h>
 
-const String SensorAPI = "http://api-irrigacao.herokuapp.com/sensor";
-const String ValvulaAPI = "http://api-irrigacao.herokuapp.com/valvula";
-
 //Nome e senha do WiFi
 #define STASSID "Theodoro_2.4G"
 #define STAPSK  "20011999"
@@ -14,11 +11,36 @@ const String ValvulaAPI = "http://api-irrigacao.herokuapp.com/valvula";
 //int idSensor = 7;
 int valorSensor[2];
 int measurementInterval = 10;
+int SensorSensivity = 55;
 int millisData = 0;
 
 //Senha da API
 #define apiKey "\"Copanga7\""
 
+//Endereços da API
+const String SensorAPI = "http://api-irrigacao.herokuapp.com/sensor";
+const String ValvulaAPI = "http://api-irrigacao.herokuapp.com/valvula";
+
+
+void humidityMeasurement()
+{
+  valorSensor[0] = map(analogRead(35), 0, 4095, 100, 0);
+  valorSensor[1] = map(analogRead(34), 0, 4095, 100, 0);
+
+  /*for(int i = 0; i >= (sizeof(valorSensor)/sizeof(int)); i++)
+  {
+    if(valorSensor[i] <= SensorSensivity)
+    {
+      //comando para enviar requisição para o sensor, primeiro parametro é o endereço, 
+      //e o segundo é um objeto String que retorna formatado o json
+      postHTTP(SensorAPI, json("sensor ", i, valorSensor[i]));
+      //acionaValvula();
+    }
+  }*/
+}
+
+
+//função responsavel por receber os dados dos sensores ou valvulas e retornar o json a ser enviado
 String json(String caminho, int id, int value)
 {
   String jsonPayload;
@@ -35,6 +57,7 @@ String json(String caminho, int id, int value)
   
 }
 
+//Void que envia as requisições POST
 void postHTTP(String endereco, String payload)
 {
   WiFiClient client;
@@ -92,10 +115,10 @@ void setup() {
   // ArduinoOTA.setPort(3232);
 
   // Hostname defaults to esp3232-[MAC]
-  // ArduinoOTA.setHostname("myesp32");
+  ArduinoOTA.setHostname("esp32");
 
   // No authentication by default
-  // ArduinoOTA.setPassword("admin");
+  ArduinoOTA.setPassword("admin");
 
   // Password can be set with it's md5 value as well
   // MD5(admin) = 21232f297a57a5a743894a0e4a801fc3
@@ -132,17 +155,18 @@ void setup() {
 
 void loop() {
   ArduinoOTA.handle();
-  valorSensor[0] = analogRead(35);
-  //valorSensor[1] = analogRead(34);
+  humidityMeasurement();
+  
   //Espera pela conexão WiFi
   if ((WiFi.status() == WL_CONNECTED)) {
     if(millis() - millisData >= (measurementInterval * 60000))
     {
       millisData = millis();
-      int randomNumber = random(4096);
-      //comando para enviar requisição para o sensor, primeiro parametro é o endereço, e o segundo é um objeto String que retorna formatado o json
-      postHTTP(SensorAPI, json("sensor", 0, map(valorSensor[0], 0, 4095, 100, 0)));
-      postHTTP(SensorAPI, json("sensor", 1, map(randomNumber, 0, 4095, 0, 100)));
+     
+      //comando para enviar requisição para o sensor,o primeiro parametro é o endereço, 
+      //e o segundo é um objeto String que retorna formatado o json
+      postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
+      postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
     }
   }
 }
