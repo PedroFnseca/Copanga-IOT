@@ -64,7 +64,7 @@ function AllSensorChart() {
                 data: valueSensor[i].reverse(),
                 backgroundColor: `rgb(${r}, ${g}, ${b})`,
                 borderColor: `rgb(${r}, ${g}, ${b})`,
-                borderWidth: 1,
+                borderWidth: 4,
                 tension: 0.2,
                 pointStyle: 'circle',
                 pointRadius: 5.5
@@ -96,7 +96,6 @@ function AllSensorChart() {
             datasets: datasets
         }
 
-        console.log(typeof dataChart)
         return dataChart // Retornando o objeto para o gráfico
     }
 
@@ -105,20 +104,14 @@ function AllSensorChart() {
         datasets: []
     })
 
+    // Método para setar os dados do gráfico com promisse
     useEffect(() => {
         getChartData().then(data => setDataChart(data))
     }, 100) 
 
-    async function teste() {
-        const dadosTeste = await dataChart
-        console.log(dadosTeste)
-    }
-
     return (
     <div>
-        {/* Tentar passar uma promisse por props */}
-        {/* <Button onClick={teste}>clique me</Button> */}
-        <Linechart dataChart={dataChart}/>
+        <Linechart data={dataChart}/>
     </div>
     )
 }
