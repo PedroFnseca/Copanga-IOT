@@ -104,40 +104,60 @@ function AllSensorChart() {
     })
     // Hook que armazena legendas do gráfico
     const [legend, setLegend] = useState('')
+    
+    // hook que armazena as options do gráfico
+    const [options, setOptions] = useState({
+        plugins:{
+            title:{
+                display: true,
+                text: `Carregando dados ...`,
+                font: {size: 18}
+            },
+            subtitle:{
+                display: true,
+                text: `Aguarde ...`,
+                font: {size: 16}
+            }
+        }
+    })
+
 
     // Método para setar os dados do gráfico com promisse
     useEffect(() => {
         getChartData().then(data => {
             setDataChart(data[0])
             setLegend(data[1])
+            setOptions({
+                    scale:{
+                        y: {
+                            max: 100,
+                            min: 0,
+                        ticks: {
+                            stepSize: 10
+                        },
+                        position: 'left'
+                        }
+                    },
+                    plugins:{
+                        title:{
+                            display: true,
+                            text: `Sensores de umidade`,
+                            font: {size: 18}
+                        },
+                        subtitle:{
+                            display: true,
+                            text: `Dados de ${legend}`,
+                            font: {size: 16}
+                        }
+                    },
+                    responsive: true,
+                    maintainAspectRatio: true
+                }
+            )
         })
     }, [])
 
-    const options = {
-        scale:{
-            y: {
-                max: 100,
-            ticks: {
-                stepSize: 10
-            },
-            position: 'left'
-            }
-        },
-        plugins:{
-            title:{
-                display: true,
-                text: `Sensores de umidade`,
-                font: {size: 18}
-            },
-            subtitle:{
-                display: true,
-                text: `Dados de ${legend}`,
-                font: {size: 16}
-            }
-        },
-        responsive: true,
-        maintainAspectRatio: true
-    }
+    
 
     return (
     <div id='DivchartAllSensor'>
