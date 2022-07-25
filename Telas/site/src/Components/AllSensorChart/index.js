@@ -92,20 +92,50 @@ function AllSensorChart() {
             // Dados do gráfico
             const dataChart = {
                 // Atribuindo labels do gráfico
-                labels: labels.reverse(),
-                datasets: datasets
+                type: 'line',
+                datasets: datasets,
+                options: {
+                    scales: {
+                        x: {
+                            type: 'category',
+                            labels: labels.reverse(),
+                            display: true,
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Horário'
+                            }
+                        },
+                        y: {
+                            type: 'linear',
+                            display: true,
+                            position: 'left',
+                            scaleLabel: {
+                                display: true,
+                                labelString: 'Umidade (%)'
+                            }
+                        }
+                    }
+                }
             }
-
-            console.log(legend)
+            // console.log(legend)
             return dataChart // Retornando o objeto para o gráfico
         })
+    }
+
+    const [dataChart, setDataChart] = useState(async () => {
+        const data = await getChartData()
+        return data
+    })
+    
+    function teste() {
+        console.log(dataChart)
     }
 
     return (
     <div>
         {/* Tentar passar uma promisse por props */}
-        <Button onClick={getChartData}>clique me</Button>
-        {/* <Linechart onLoad={getChartData} /> */}
+        <Button onClick={teste}>clique me</Button>
+        {/* <Linechart dataChart={}/> */}
     </div>
     )
 }
