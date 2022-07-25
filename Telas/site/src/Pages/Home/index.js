@@ -1,10 +1,11 @@
 import React from 'react'
 import AllSensorChart from '../../Components/AllSensorChart/index'
+import './index.css'
 
 function Home() {
   return (
-    <div>
-      <AllSensorChart />
+    <div id='divChart'>
+      <AllSensorChart id='chartAllSensor'/>
     </div>
   )
 }

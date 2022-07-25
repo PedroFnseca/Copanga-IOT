@@ -1,0 +1,11 @@
+#DivchartAllSensor{
+    width: 88%;
+
+    /* centralizar */
+    margin: 0 auto;
+
+    padding: 10px;
+
+    background-color: #fafafa;
+    border-radius: 10px;
+}

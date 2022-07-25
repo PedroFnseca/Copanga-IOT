@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import api from '../../Service/api'
 import Linechart from '../Charts/Linechart'
+import './index.css'
 
 function AllSensorChart() {
 
@@ -17,7 +18,7 @@ function AllSensorChart() {
             return data.data.results 
         }
         catch(err){
-            alert(err.code) // Erro de conexão
+            console.log(err.code) // Erro de conexão
         }
     }
 
@@ -83,9 +84,6 @@ function AllSensorChart() {
         let legend = '' // Legendas do gráfico
             if(days.length > 1) legend = `${days.pop()} a ${days[0]}`
             else legend = days[0]
-        
-        // Titulo do gráfico    
-        const title = 'Sensores de umidade'
 
         // Dados do gráfico
         const dataChart = {
@@ -95,22 +93,55 @@ function AllSensorChart() {
             datasets: datasets
         }
 
-        return dataChart // Retornando o objeto para o gráfico
+        console.log(legend)
+        return [dataChart, legend] // Retornando dados do gráfico e legendas
     }
 
+    // Hook que armazena os dados do gráfico
     const [dataChart, setDataChart] = useState({
         labels: [],
         datasets: []
     })
+    // Hook que armazena legendas do gráfico
+    const [legend, setLegend] = useState('')
 
     // Método para setar os dados do gráfico com promisse
     useEffect(() => {
-        getChartData().then(data => setDataChart(data))
-    }, 100) 
+        getChartData().then(data => {
+            setDataChart(data[0])
+            setLegend(data[1])
+        })
+    }, [])
+
+    const options = {
+        scale:{
+            y: {
+                max: 100,
+            ticks: {
+                stepSize: 10
+            },
+            position: 'left'
+            }
+        },
+        plugins:{
+            title:{
+                display: true,
+                text: `Sensores de umidade`,
+                font: {size: 18}
+            },
+            subtitle:{
+                display: true,
+                text: `Dados de ${legend}`,
+                font: {size: 16}
+            }
+        },
+        responsive: true,
+        maintainAspectRatio: true
+    }
 
     return (
-    <div>
-        <Linechart data={dataChart}/>
+    <div id='DivchartAllSensor'>
+        <Linechart data={dataChart} options={options} />
     </div>
     )
 }
