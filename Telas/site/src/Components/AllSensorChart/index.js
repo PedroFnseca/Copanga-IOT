@@ -100,9 +100,17 @@ function AllSensorChart() {
         return dataChart // Retornando o objeto para o gráfico
     }
 
-    const [dataChart, setDataChart] = useState(async () => {
-        const data = await getChartData()
-        return data
+    const [dataChart, setDataChart] = useState({
+        // await getChartData()
+            type: 'line',
+            labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+            datasets: [
+                {
+                    label: 'Sensor 1',
+                    data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+                    backgroundColor: 'rgb(255, 99, 132)',
+                }
+            ]
     })
 
     async function teste() {
@@ -114,7 +122,7 @@ function AllSensorChart() {
     <div>
         {/* Tentar passar uma promisse por props */}
         {/* <Button onClick={teste}>clique me</Button> */}
-        {/* <Linechart dataChart={dataChart}/> */}
+        <Linechart dataChart={dataChart}/>
     </div>
     )
 }
