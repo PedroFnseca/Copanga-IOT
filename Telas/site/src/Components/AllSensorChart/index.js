@@ -64,10 +64,10 @@ function AllSensorChart() {
                 data: valueSensor[i].reverse(),
                 backgroundColor: `rgb(${r}, ${g}, ${b})`,
                 borderColor: `rgb(${r}, ${g}, ${b})`,
-                borderWidth: 4,
+                borderWidth: 3,
                 tension: 0.2,
                 pointStyle: 'circle',
-                pointRadius: 5.5
+                pointRadius: 3
             })
         }
         const days = []
@@ -102,8 +102,6 @@ function AllSensorChart() {
         labels: [],
         datasets: []
     })
-    // Hook que armazena legendas do gráfico
-    const [legend, setLegend] = useState('')
     
     // hook que armazena as options do gráfico
     const [options, setOptions] = useState({
@@ -125,37 +123,50 @@ function AllSensorChart() {
     // Método para setar os dados do gráfico com promisse
     useEffect(() => {
         getChartData().then(data => {
-            setDataChart(data[0])
-            setLegend(data[1])
+            setDataChart(data[0]) // Dados do gráfico
+
+            const legend = data[1]   // Legendas do gráfico (dia(s))
+
+            // Coloca as configurações do gráfico para os dados coletados
             setOptions({
                     scale:{
                         y: {
                             max: 100,
-                            min: 0,
-                            ticks: {stepSize: 10},    
+                            min: 0,    
+                            ticks: {stepSize: 10}, // Tamanho do intervalo de valores   
                             }
-                        },
+                    },
                     plugins:{
-                        title:{
+                        title:{ 
                             display: true,
-                            text: `Sensores de umidade`,
-                            font: {size: 18}
+                            text: `Sensores de umidade (%)`,
+                            font: {size: 10},
+                            padding:  2
                         },
                         subtitle:{
                             display: true,
                             text: `Dados de ${legend}`,
-                            font: {size: 16}
+                            font: {size: 8},
+                            position: 'top'
+                        },
+                        legend:{ // Caixas de legenda
+                            display: true,
+                            labels: {
+                                boxWidth: 25,
+                                padding: 5,
+                                font: {size: 8}
+                            }
                         }
                     },
                     responsive: true,
-                    maintainAspectRatio: false
+                    maintainAspectRatio: false,
+                    aspectRatio: 1
                 }
             )
         })
     }, [])
 
-    
-
+    // Renderiza o gráfico
     return (
     <div id='DivchartAllSensor'>
         <Linechart data={dataChart} options={options} />
