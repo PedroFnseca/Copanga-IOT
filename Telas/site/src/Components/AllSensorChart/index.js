@@ -136,13 +136,13 @@ function AllSensorChart() {
 
             // Coloca as configurações do gráfico para os dados coletados
             setOptions({
-                    scale:{
-                        y: {
-                            max: 100,
-                            min: 0,    
-                            ticks: {stepSize: 10}, // Tamanho do intervalo de valores   
-                            }
-                    },
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 100,
+                        ticks: {stepSize: 10}
+                    }
+                }, 
                     plugins:{
                         title:{ 
                             display: true,
