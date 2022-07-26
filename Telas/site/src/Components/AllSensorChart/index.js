@@ -64,10 +64,10 @@ function AllSensorChart() {
                 data: valueSensor[i].reverse(),
                 backgroundColor: `rgb(${r}, ${g}, ${b})`,
                 borderColor: `rgb(${r}, ${g}, ${b})`,
-                borderWidth: 3,
+                borderWidth: 4,
                 tension: 0.2,
                 pointStyle: 'circle',
-                pointRadius: 3
+                pointRadius: 5.5
             })
         }
         const days = []
@@ -105,6 +105,13 @@ function AllSensorChart() {
     
     // hook que armazena as options do gráfico
     const [options, setOptions] = useState({
+        scales: {
+            y: {
+                min: 0,
+                max: 100,
+                ticks: {stepSize: 10}
+            }
+        },
         plugins:{
             title:{
                 display: true,
@@ -140,27 +147,26 @@ function AllSensorChart() {
                         title:{ 
                             display: true,
                             text: `Sensores de umidade (%)`,
-                            font: {size: 10},
+                            font: {size: 22},
                             padding:  2
                         },
                         subtitle:{
                             display: true,
                             text: `Dados de ${legend}`,
-                            font: {size: 8},
+                            font: {size: 18},
                             position: 'top'
                         },
                         legend:{ // Caixas de legenda
                             display: true,
                             labels: {
-                                boxWidth: 25,
-                                padding: 5,
-                                font: {size: 8}
+                                boxWidth: 50,
+                                padding: 10,
+                                font: {size: 16}
                             }
                         }
                     },
                     responsive: true,
-                    maintainAspectRatio: false,
-                    aspectRatio: 1
+                    maintainAspectRatio: false
                 }
             )
         })
