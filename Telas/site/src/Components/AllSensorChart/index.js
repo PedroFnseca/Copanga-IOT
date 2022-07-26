@@ -99,12 +99,16 @@ function AllSensorChart() {
 
     // Hook que armazena os dados do gráfico
     const [dataChart, setDataChart] = useState({
-        labels: [],
-        datasets: []
+        labels: ['...', 'Aguarde carregando...', '...'],
+        datasets: [{
+            label: 'Verifique a conexão com a internet',
+            data: [0, 0, 0],
+        }]
     })
     
     // hook que armazena as options do gráfico
     const [options, setOptions] = useState({
+    // Dados que irão aparecer durante o carregamento do gráfico
         scales: {
             y: {
                 min: 0,
@@ -116,13 +120,23 @@ function AllSensorChart() {
             title:{
                 display: true,
                 text: `Carregando dados ...`,
-                font: {size: 18}
+                font: {size: 22}
             },
             subtitle:{
                 display: true,
                 text: `Aguarde ...`,
-                font: {size: 16}
-            }
+                font: {size: 18}
+            },
+            legend:{ // Caixas de legenda
+                display: true,
+                labels: {
+                    boxWidth: 50,
+                    padding: 10,
+                    font: {size: 16}
+                }
+            },
+            responsive: true,
+            maintainAspectRatio: false
         }
     })
 
@@ -134,39 +148,30 @@ function AllSensorChart() {
 
             const legend = data[1]   // Legendas do gráfico (dia(s))
 
-            // Coloca as configurações do gráfico para os dados coletados
+            // Atualiza o titulo e legenda do gráfico
             setOptions({
-                scales: {
-                    y: {
-                        min: 0,
-                        max: 100,
-                        ticks: {stepSize: 10}
-                    }
-                }, 
-                    plugins:{
-                        title:{ 
-                            display: true,
-                            text: `Sensores de umidade (%)`,
-                            font: {size: 22},
-                            padding:  2
-                        },
-                        subtitle:{
-                            display: true,
-                            text: `Dados de ${legend}`,
-                            font: {size: 18},
-                            position: 'top'
-                        },
-                        legend:{ // Caixas de legenda
-                            display: true,
-                            labels: {
-                                boxWidth: 50,
-                                padding: 10,
-                                font: {size: 16}
-                            }
-                        }
+                plugins:{
+                    title:{ 
+                        display: true,
+                        text: `Sensores de umidade (%)`,
+                        font: {size: 22},
+                        padding:  2
                     },
-                    responsive: true,
-                    maintainAspectRatio: false
+                    subtitle:{
+                        display: true,
+                        text: `Dados de ${legend}`,
+                        font: {size: 18},
+                        position: 'top'
+                    },
+                    legend:{ // Caixas de legenda
+                        display: true,
+                        labels: {
+                            boxWidth: 50,
+                            padding: 10,
+                            font: {size: 16}
+                        }
+                    }
+                },
                 }
             )
         })
