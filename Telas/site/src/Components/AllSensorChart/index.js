@@ -169,13 +169,12 @@ function AllSensorChart() {
                             boxWidth: 50,
                             padding: 10,
                             font: {size: 16}
+                            }   
                         }
-                    }
-                },
-                }
-            )
-        })
-    }, [])
+                    },
+                })
+            })
+        }, [])
 
     // Renderiza o gráfico
     return (
