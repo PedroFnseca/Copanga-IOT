@@ -4,7 +4,8 @@
 </p>
 
 
-> # O que é [COPANGA](https://copanga.vercel.app/) 🤔
+> # O que é Copanga 🤔
+>  ### [Visitar site](https://copanga.vercel.app/)
 - ### Trabalho de conclusão de curso da [ETEC de Embu](https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=394) em NOVOTEC [Automação industrial](https://www.vestibulinhoetec.com.br/unidades-cursos/curso.asp?c=402)
 
 - ### O projeto está sendo desenvolvido para facilitar o controle de plantações e podendo vizualizar em gráficos como está indo a plantação através de uma aplicação web.
