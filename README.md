@@ -12,7 +12,7 @@
 <br>
 
 > # Ideia 💡
-### Este projeto foi pensado em um problema recorrente em alguns locais no Brasil, onde se possui plantações que tem tipos de solos diferentes no mesmo local, tendo dificuldades no controle da umidade da terra por possuirem tempo de absorção de água diferente.
+### Este projeto foi pensado em decorência de um problema comum em alguns locais no Brasil, onde há plantações que possuem tipos de solos diferentes no mesmo local, tendo dificuldades no controle da umidade da terra por possuírem tempo de absorção de água diferente.
 
 <br>
 
