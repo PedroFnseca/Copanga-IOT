@@ -4,13 +4,7 @@ import Linechart from '../Charts/Linechart'
 import './index.css'
 
 function AllSensorChart() {
-
-    function random(min, max) {
-        const num = Math.floor(Math.random() * max) - min
-        if(num < 0) return num * -1 // Se o numero for negativo, retorna o numero positivo
-        return num
-    }
-
+    
     // Função para buscar os dados do sensor na API
     async function getData() {
         try{
@@ -54,16 +48,32 @@ function AllSensorChart() {
         // Gerando dataset de acordo com o número de sensores
         for(let i = 0; i < valueSensor.length; i++){
 
-            // Gerando cores aleatórias
-            const r = random((i + 13) * (i + 12), 255) // Red
-            const g = random((i + 13) * (i + 12), 255) // Green
-            const b = random((i + 13) * (i + 12), 255) // Blue
+            let color = ''
+
+            // Gerando cores de acordo com o id do sensor
+            switch(i){
+                case 0:
+                    color = '#FF3333'
+                    break
+                case 1:
+                    color = '#33FF33'
+                    break
+                case 2:
+                    color = '#3333FF'
+                    break
+                case 3:
+                    color = '#FFFF33'
+                    break
+                case 4:
+                    color = '#FF33FF'
+                    break
+            }
 
             datasets.push({
                 label: `Sensor ${i}`,
                 data: valueSensor[i].reverse(),
-                backgroundColor: `rgb(${r}, ${g}, ${b})`,
-                borderColor: `rgb(${r}, ${g}, ${b})`,
+                backgroundColor: color,
+                borderColor: color,
                 borderWidth: 4,
                 tension: 0.2,
                 pointStyle: 'circle',
@@ -139,7 +149,6 @@ function AllSensorChart() {
             maintainAspectRatio: false
         }
     })
-
 
     // Método para setar os dados do gráfico com promisse
     useEffect(() => {
