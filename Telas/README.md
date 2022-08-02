@@ -1,4 +1,4 @@
-> # [Site Copanga 🌱](https://copanga.netlify.app/)
+> # [Site Copanga 🌱](https://copanga.vercel.app/)
 > ### Site desenvolvido para mostrar em tempo real dados da irrigação IOT.
 
 <br>
