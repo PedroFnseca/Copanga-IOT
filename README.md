@@ -19,7 +19,7 @@
 
 > # Como foi feito 🤖
 
-- ### Utilizamos o microcontrolador Esp32 para fazer o monitoramento dos sensores e controle de válvulas enviando os dados para uma API.
+- ### Utilizamos o microcontrolador Esp32 para fazer o monitoramento dos sensores e controle de válvulas enviando os dados para uma API que foi desenvolvida em torno fo projeto que conecta todo o ecossistema.
 
 ![Irrigação - Descrição funcionamento TCC](https://user-images.githubusercontent.com/97262778/179148177-cf6df30b-cb0a-46c7-ba9a-03c1241beca0.png)
 
