@@ -5,9 +5,7 @@
 > # Inserir dados dos sensores 🛰
 ##### URL (POST)
 
-```
-https://api-irrigacao.herokuapp.com/sensor
-```
+```https://api-irrigacao.herokuapp.com/sensor```
 
 #### Body JSON
 ```
@@ -38,9 +36,7 @@ https://api-irrigacao.herokuapp.com/sensor
 
 > # Inserir dados das valvulas 💧
 #### URL (POST)
-```
-https://api-irrigacao.herokuapp.com/valvula
-```
+```https://api-irrigacao.herokuapp.com/valvula```
 #### Body JSON
 ```
 {
