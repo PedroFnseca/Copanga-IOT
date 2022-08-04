@@ -6,9 +6,9 @@
 #### Body JSON
 
     {
-      "idSensor": 4,      
-      "valorSensor": 80,
-      "key": "valueKey"
+        "idSensor": 4,      
+        "valorSensor": 80,
+        "key": "valueKey"
     }
 
 <br>
@@ -30,9 +30,9 @@
 #### Body JSON
 
     {
-     "idValvula": ?,
-     "segundos": ?,
-     "key": "valueKey"
+        "idValvula": ?,
+        "segundos": ?,
+        "key": "valueKey"
     }
 
 
