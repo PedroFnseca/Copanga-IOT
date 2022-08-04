@@ -1,0 +1,13 @@
+Nav {
+  font-weight: 600;
+}
+
+#linkNavbar {
+  color: rgb(78, 78, 78);
+  text-decoration: none;
+}
+
+#linkNavbar:hover {
+  color: #1B98E0;
+  font-weight: bold;
+}

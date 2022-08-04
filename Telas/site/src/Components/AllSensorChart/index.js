@@ -53,24 +53,24 @@ function AllSensorChart() {
             // Gerando cores de acordo com o id do sensor
             switch(i){
                 case 0:
-                    color = '#FF3333'
+                    color = '#1B98E0'
                     break
                 case 1:
-                    color = '#33FF33'
+                    color = '#623307'
                     break
                 case 2:
-                    color = '#3333FF'
+                    color = '#1B98E0'
                     break
                 case 3:
-                    color = '#FFFF33'
+                    color = '#1B98E0'
                     break
                 case 4:
-                    color = '#FF33FF'
+                    color = '#1B98E0'
                     break
             }
 
             datasets.push({
-                label: `Sensor ${i}`,
+                label: `Sensor ${i+1}`,
                 data: valueSensor[i].reverse(),
                 backgroundColor: color,
                 borderColor: color,
@@ -109,7 +109,7 @@ function AllSensorChart() {
 
     // Hook que armazena os dados do gráfico
     const [dataChart, setDataChart] = useState({
-        labels: ['...', 'Aguarde carregando...', '...'],
+        labels: ['...', 'Carregando...', '...'],
         datasets: [{
             label: 'Verifique a conexão com a internet',
             data: [0, 0, 0],
@@ -129,12 +129,12 @@ function AllSensorChart() {
         plugins:{
             title:{
                 display: true,
-                text: `Carregando dados ...`,
+                text: `Carregando dados...`,
                 font: {size: 22}
             },
             subtitle:{
                 display: true,
-                text: `Aguarde ...`,
+                text: `Aguarde...`,
                 font: {size: 18}
             },
             legend:{ // Caixas de legenda
@@ -162,7 +162,7 @@ function AllSensorChart() {
                 plugins:{
                     title:{ 
                         display: true,
-                        text: `Sensores de umidade (%)`,
+                        text: `Sensores de Umidade (%)`,
                         font: {size: 22},
                         padding:  2
                     },
