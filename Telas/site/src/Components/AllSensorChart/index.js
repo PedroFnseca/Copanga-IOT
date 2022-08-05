@@ -53,13 +53,13 @@ function AllSensorChart() {
             // Gerando cores de acordo com o id do sensor
             switch(i){
                 case 0:
-                    color = '#1B98E0'
+                    color = '#A5EEA0'
                     break
                 case 1:
-                    color = '#623307'
+                    color = '#1B98E0'
                     break
                 case 2:
-                    color = '#1B98E0'
+                    color = '#623307'
                     break
                 case 3:
                     color = '#1B98E0'

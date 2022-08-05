@@ -1,8 +1,11 @@
 import React from 'react'
+import './index.css'
 
 function index() {
   return (
-    <h1>Oi</h1>
+    <div>
+      <h1 id="tituloHome">Sistema de Irrigação COPANGA</h1>
+    </div>
   )
 }
 

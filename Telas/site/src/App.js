@@ -3,6 +3,7 @@ import './App.css'
 import Home from './Components/Home/index.js'
 import Header from './Components/Header/index.js'
 import Sensores from './Pages/Sensores'
+import Footer from './Components/Footer/index.js'
 import Error from './Pages/Error'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/sensores" element={<Sensores />} />
           <Route path="/*" element={<Error />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

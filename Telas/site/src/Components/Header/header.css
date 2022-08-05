@@ -3,11 +3,14 @@ Nav {
 }
 
 #linkNavbar {
-  color: rgb(78, 78, 78);
+  color: #000;
   text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
 }
 
 #linkNavbar:hover {
-  color: #1B98E0;
-  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 18px;
 }
