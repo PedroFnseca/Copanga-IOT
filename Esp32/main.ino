@@ -1,3 +1,4 @@
+//Bibliotecas utilizadas, necessárias para funcionamento do código.
 #include <ESPmDNS.h>
 #include <WiFiUdp.h>
 #include <HTTPClient.h>
@@ -7,12 +8,19 @@
 #define STASSID "Theodoro_2.4G"
 #define STAPSK  "20011999"
 
+//Variaveis que armazenam a umidade, se a válvula está ligada 
+//e o tempo que ela está ativa, respectivamente.
 int valorSensor[2];
 int valvula[2];
 int valvulaTimer[2];
 
+//Intervalo em que irá medir a umidade e enviar as requisições para a api.
+//Sensibilidade, caso a umidade esteja abaixo desse valor, a valvula solenoide correspondente ativará,
+//molhando assim a terra
 int intervalo = 10;
 int sensibilidadeSensor = 55;
+
+//Variavel auxiliar do intervalo
 int millisData = 0;
 
 //Senha da API
@@ -84,7 +92,7 @@ String json(String caminho, int id, int value)
   return jsonPayload;
 }
 
-//Responsável por gerir as válvulas e o tempo em que elas estão ligadas, retornando o intervalo em que as válvulas estiveram aligadas
+//Função responsável por gerir as válvulas e o tempo em que elas estão ligadas
 int acionamentoValvula(int pin, int id, bool onOff)
 {
     //Caso queira ligar a válvula ela verifica se o indice do vetor é zero ou nulo, para evitar que ela
@@ -100,7 +108,7 @@ int acionamentoValvula(int pin, int id, bool onOff)
     else if(onOff == false)
     {
         //Se a valvula for desligada a função retorna o tempo corrido desde o acionamento da válvula
-        //que é igual ao meu tempo atual menos o tempo em que ela esteve acionada
+        //que é igual ao meu tempo atual menos o tempo em que ela esteve ligada
         digitalWrite(pin, LOW);
         return (millis() - valvulaTimer[id])/1000;
     }
