@@ -164,8 +164,8 @@ void humidityMeasurement()
 
       if(valorSensor[i] > sensSensor)
       {
-          postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(valvula0, 0, LOW)));
-          postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(valvula1, 1, LOW)));
+          postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, false)));
+          postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, false)));
       }
     }
 }
@@ -259,8 +259,8 @@ void loop() {
             //e o segundo é um objeto String que retorna formatado o json
             postHTTP(SensorAPI, json("sensor", 0, valorSensor[0]));
             postHTTP(SensorAPI, json("sensor", 1, valorSensor[1]));
-            postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(24, 0, HIGH)));
-            postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(25, 1, HIGH)));
+            postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, HIGH)));
+            postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, HIGH)));
         }
     }
 }
