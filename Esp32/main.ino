@@ -20,13 +20,15 @@ int valvulaTimer[QuantSensores];
 #define sensor1 34
 
 #define valvula0 25
-#define valvula1 24
+#define valvula1 26
 
 //Intervalo em que irá medir a umidade e enviar as requisições para a api.
 //Sensibilidade, caso a umidade esteja abaixo desse valor, a valvula solenoide correspondente ativará,
 //molhando assim a terra
 int intervalo = 10;
+int intervaloSeco = 1;
 int sensSensor = 65;
+bool soloSeco;
 
 //Variavel auxiliar do intervalo
 int millisData = 0;
@@ -137,9 +139,8 @@ int acionamentoValvula(int id, bool onOff)
 //é aplicado uma regra de tres para transformar em porcentagem
 void humidityMeasurement()
 {
-    bool requisEnviada;
-    int millisAuxData;
-
+    bool soloSecoAux;
+    
     //Medição dos valores dos sensores que são transformados em porcentagem 
     //porque são lidos e retornam valores de 0 a 4095
     valorSensor[0] = map(analogRead(sensor0), 0, 4095, 100, 0);
@@ -147,30 +148,47 @@ void humidityMeasurement()
 
     for(int i = 0; i <= QuantSensores; i++)
     {
-      while((valorSensor[i] < sensSensor) && (requisEnviada != true))
+      if((valorSensor[i] < sensSensor))
       {
-          requisEnviada = true;
-          millisAuxData = millis();
-          acionamentoValvula(i - 1, true);
-          
-          if(millis() - millisData >= ((intervalo * 60000)/4))
+          soloSecoAux = true;
+          if((valorSensor[i] < sensSensor))
           {
-              requisEnviada = false;
-              
-              postHTTP(SensorAPI, json("sensor", 0, valorSensor[0]));
-              postHTTP(SensorAPI, json("sensor", 1, valorSensor[1]));
+            soloSeco = true || soloSecoAux;
           }
-      }
-
-      if(valorSensor[i] > sensSensor)
-      {
-          postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, false)));
-          postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, false)));
+          
+          acionamentoValvula(i, true);
+      }else{
+          soloSecoAux = false;
+          acionamentoValvula(i, false);
       }
     }
 }
 
-
+void intervaloFuncao()
+{
+    //Condicional que é executada de tempos em tempos tendo como intervalo a variavel supra comentada
+    if((millis() - millisData >= (intervalo * 60000)) && (soloSeco != true))
+    {
+        //A variavel auxiliar de tempo é sobrescrita e passa a ser o tempo atual,
+        //refazendo assim o ciclo.
+        millisData = millis();
+       
+        
+        //comando para enviar requisição para o sensor,o primeiro parametro é o endereço, 
+        //e o segundo é um objeto String que retorna formatado o json
+        postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
+        postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
+        postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, HIGH)));
+        postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, HIGH)));
+    }else if((millis() - millisData >= (intervaloSeco * 60000)) && (soloSeco == true))
+    {
+        millisData = millis();
+        postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
+        postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
+        postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, HIGH)));
+        postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, HIGH)));
+    }
+}
 void setup() {  
     Serial.begin(115200);
     Serial.println();
@@ -240,27 +258,11 @@ void setup() {
 
 void loop() {
     ArduinoOTA.handle();
-
-
     
     //Espera pela conexão WiFi
     if ((WiFi.status() == WL_CONNECTED)) {
-        //Condicional que é executada de tempos em tempos tendo como intervalo a variavel supra comentada
-        if(millis() - millisData >= (intervalo * 60000))
-        {
-            //A variavel auxiliar de tempo é sobrescrita e passa a ser o tempo atual,
-            //refazendo assim o ciclo.
-            millisData = millis();
-
-            //Medição dos sensores e caso seja menor que a variavel sensSensor ele envia uma requisição
-            humidityMeasurement();
-            
-            //comando para enviar requisição para o sensor,o primeiro parametro é o endereço, 
-            //e o segundo é um objeto String que retorna formatado o json
-            postHTTP(SensorAPI, json("sensor", 0, valorSensor[0]));
-            postHTTP(SensorAPI, json("sensor", 1, valorSensor[1]));
-            postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, HIGH)));
-            postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, HIGH)));
-        }
+        
+        humidityMeasurement();
+        intervaloFuncao();
     }
 }
