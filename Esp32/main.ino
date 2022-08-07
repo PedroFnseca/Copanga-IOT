@@ -182,6 +182,7 @@ void intervaloFuncao()
         postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, HIGH)));
     }else if((millis() - millisData >= (intervaloSeco * 60000)) && (soloSeco == true))
     {
+        soloSeco = false;
         millisData = millis();
         postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
         postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
