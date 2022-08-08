@@ -26,9 +26,7 @@ int valvulaTimer[QuantSensores];
 //Sensibilidade, caso a umidade esteja abaixo desse valor, a valvula solenoide correspondente ativará,
 //molhando assim a terra
 int intervalo = 10;
-int intervaloSeco = 1;
 int sensSensor = 65;
-bool soloSeco;
 
 //Variavel auxiliar do intervalo
 int millisData = 0;
@@ -107,10 +105,10 @@ int acionamentoValvula(int id, bool onOff)
     
     if(id == 0)
     {
-      pin = valvula0;
+        pin = valvula0;
     }else if(id == 1)
     {
-      pin = valvula1;
+        pin = valvula1;
     }
     
     //Define o pino selecionado como saida
@@ -139,8 +137,6 @@ int acionamentoValvula(int id, bool onOff)
 //é aplicado uma regra de tres para transformar em porcentagem
 void humidityMeasurement()
 {
-    bool soloSecoAux;
-    
     //Medição dos valores dos sensores que são transformados em porcentagem 
     //porque são lidos e retornam valores de 0 a 4095
     valorSensor[0] = map(analogRead(sensor0), 0, 4095, 100, 0);
@@ -148,26 +144,19 @@ void humidityMeasurement()
 
     for(int i = 0; i <= QuantSensores; i++)
     {
-      if((valorSensor[i] < sensSensor))
-      {
-          soloSecoAux = true;
-          if((valorSensor[i] < sensSensor))
-          {
-            soloSeco = true || soloSecoAux;
-          }
-          
-          acionamentoValvula(i, true);
-      }else{
-          soloSecoAux = false;
-          acionamentoValvula(i, false);
-      }
+        if((valorSensor[i] < sensSensor))
+        {
+            acionamentoValvula(i, true);
+        }else{
+            acionamentoValvula(i, false);
+        }
     }
 }
 
 void intervaloFuncao()
 {
     //Condicional que é executada de tempos em tempos tendo como intervalo a variavel supra comentada
-    if((millis() - millisData >= (intervalo * 60000)) && (soloSeco != true))
+    if(millis() - millisData >= (intervalo * 60000))
     {
         //A variavel auxiliar de tempo é sobrescrita e passa a ser o tempo atual,
         //refazendo assim o ciclo.
@@ -176,14 +165,6 @@ void intervaloFuncao()
         
         //comando para enviar requisição para o sensor,o primeiro parametro é o endereço, 
         //e o segundo é um objeto String que retorna formatado o json
-        postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
-        postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
-        postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, HIGH)));
-        postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, HIGH)));
-    }else if((millis() - millisData >= (intervaloSeco * 60000)) && (soloSeco == true))
-    {
-        soloSeco = false;
-        millisData = millis();
         postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
         postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
         postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, HIGH)));
