@@ -28,7 +28,7 @@ int valvulaTimer[QuantSensores];
 int intervalo = 10;
 int sensSensor = 65;
 
-//Variavel auxiliar do intervalo
+//Variavel auxiliar do intervalo de tempo
 int millisData = 0;
 
 //Senha da API
@@ -99,18 +99,8 @@ String json(String caminho, int id, int value)
 }
 
 //Função responsável por gerir as válvulas e o tempo em que elas estão ligadas
-int acionamentoValvula(int id, bool onOff)
-{
-    int pin = 0;
-    
-    if(id == 0)
-    {
-        pin = valvula0;
-    }else if(id == 1)
-    {
-        pin = valvula1;
-    }
-    
+int acionamentoValvula(int pin, int id, bool onOff)
+{   
     //Define o pino selecionado como saida
     pinMode(pin, OUTPUT);
     
@@ -146,9 +136,9 @@ void humidityMeasurement()
     {
         if((valorSensor[i] < sensSensor))
         {
-            acionamentoValvula(i, true);
+            acionamentoValvula(valvula0, i, true);
         }else{
-            acionamentoValvula(i, false);
+            acionamentoValvula(valvula1, i, false);
         }
     }
 }
@@ -167,8 +157,8 @@ void intervaloFuncao()
         //e o segundo é um objeto String que retorna formatado o json
         postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
         postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
-        postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(0, HIGH)));
-        postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(1, HIGH)));
+        postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(valvula0, 0, HIGH)));
+        postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(valvula1, 1, HIGH)));
     }
 }
 void setup() {  
