@@ -1,20 +1,22 @@
-> # Inserir dados dos sensores 🌱
-> ### URL (POST)
+# Inserir dados dos sensores 🌱
+### URL (POST)
 
 #### ```https://api-irrigacao.herokuapp.com/sensor```
 
 #### Body JSON
 
-    {
-        "idSensor": 4,      
-        "valorSensor": 80,
-        "key": "valueKey"
-    }
+```json
+{
+    "idSensor": 4,      
+    "valorSensor": 80,
+    "key": "valueKey"
+}
+```
 
 <br>
 
-> # Coletando dados dos sensores 🌱
-> ### URL (GET)
+# Coletando dados dos sensores 🌱
+### URL (GET)
 
 #### 1- Todos os registros com seus valores ```.../sensor/allData```
 #### 2- Todos os registros do id (parâmetro adicional "idSensor") ```.../sensor/allDataId```
@@ -24,17 +26,18 @@
 
 <br><br>
 
-> # Inserir dados das valvulas 💧
-> ### URL (POST)
+# Inserir dados das valvulas 💧
+### URL (POST)
 #### ```https://api-irrigacao.herokuapp.com/valvula```
 #### Body JSON
 
-    {
-        "idValvula": ?,
-        "segundos": ?,
-        "key": "valueKey"
-    }
-
+```json
+{
+    "idValvula": 10,
+    "segundos": 20,
+    "key": "valueKey"
+}
+```
 
 <br>
 
