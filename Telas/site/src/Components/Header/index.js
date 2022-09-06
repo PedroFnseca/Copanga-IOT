@@ -10,7 +10,7 @@ function index() {
         <Navbar.Brand>
           <Link to='/'>
             <img
-              src="https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2026.png"
+              src={require("../../Imagens/logoofc.png")}
               width="30"
               height="30"
               className="d-inline-block align-top"
