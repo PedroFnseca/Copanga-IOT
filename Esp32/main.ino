@@ -84,15 +84,8 @@ void postHTTP(String endereco, String payload)
 String json(String caminho, int id, int value)
 {
     String jsonPayload;
-
-    //verifica se o json é para o sensor ou para as valvulas
-    if(caminho == "sensor")
-    {
-        jsonPayload = "{\"key\":"apiKey",\"idSensor\":" + String(id) + ",\"valorSensor\":" + String(value) + "}";
-    }else if(caminho == "valvula")
-    {
-        jsonPayload = "{\"key\":"apiKey",\"idValvula\":" + String(id) + ",\"segundos\":" + String(value) + "}";
-    }
+    
+    jsonPayload = "{\"key\":"apiKey"," + caminho + ":" + String(id) + ",\"valorSensor\":" + String(value) + "}";
   
   //Retorna a variavel com o json formatado e pronto para ser enviado para a api
   return jsonPayload;
@@ -155,10 +148,10 @@ void intervaloFuncao()
         
         //comando para enviar requisição para o sensor,o primeiro parametro é o endereço, 
         //e o segundo é um objeto String que retorna formatado o json
-        postHTTP(SensorAPI, json("sensor", 2, valorSensor[0]));
-        postHTTP(SensorAPI, json("sensor", 3, valorSensor[1]));
-        postHTTP(ValvulaAPI, json("valvula", 0, acionamentoValvula(valvula0, 0, HIGH)));
-        postHTTP(ValvulaAPI, json("valvula", 1, acionamentoValvula(valvula1, 1, HIGH)));
+        postHTTP(SensorAPI, json("idSensor", 2, valorSensor[0]));
+        postHTTP(SensorAPI, json("idSensor", 3, valorSensor[1]));
+        postHTTP(ValvulaAPI, json("idValvula", 0, acionamentoValvula(valvula0, 0, HIGH)));
+        postHTTP(ValvulaAPI, json("idValvula", 1, acionamentoValvula(valvula1, 1, HIGH)));
     }
 }
 void setup() {  
