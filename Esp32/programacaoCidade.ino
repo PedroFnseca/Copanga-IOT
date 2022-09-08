@@ -1,10 +1,10 @@
- #define sinalVerde 5;
- #define sinalAmarelo 4;
- #define sinalVermelho 3;
- #define delaySemaforo 2;
+ #define sinalVerde 5
+ #define sinalAmarelo 4
+ #define sinalVermelho 3
+ #define delaySemaforo 2
 
- #define sensorAgua 6;
- #define bombaAgua 7;
+ #define sensorAgua 6
+ #define bombaAgua 7
  
  void setup() {
   pinMode(sinalVerde, OUTPUT);
@@ -13,27 +13,27 @@
 }
 
 void loop() {
-  semaforo(delaySemaforo);
+  semaforo();
   gerenciaAgua();
 }
 
-void semaforo(int delaySemaforo)
+void semaforo()
 {
   //gerenciamento dos leds dos semáforos
   digitalWrite(sinalVermelho, LOW);
   digitalWrite(sinalVerde, HIGH);
   
-  delay(this.delaySemaforo);
+  delay(delaySemaforo);
   
   digitalWrite(sinalVerde, LOW);
   digitalWrite(sinalAmarelo, HIGH);
 
-  delay(this.delaySemaforo);
+  delay(delaySemaforo);
   
   digitalWrite(sinalAmarelo, LOW);
   digitalWrite(sinalVermelho, HIGH);
 
-  delay(this.delaySemaforo);
+  delay(delaySemaforo);
 }
 
 void gerenciaAgua()
