@@ -5,17 +5,7 @@
 
  #define sensorAgua 6
  #define bombaAgua 7
- 
- void setup() {
-  pinMode(sinalVerde, OUTPUT);
-  pinMode(sinalAmarelo, OUTPUT);
-  pinMode(sinalVermelho, OUTPUT);
-}
 
-void loop() {
-  semaforo();
-  gerenciaAgua();
-}
 
 void semaforo()
 {
@@ -44,4 +34,18 @@ void gerenciaAgua()
   }else{
     digitalWrite(bombaAgua, LOW);
   }
+} 
+
+
+
+void setup() {
+  pinMode(sinalVerde, OUTPUT);
+  pinMode(sinalAmarelo, OUTPUT);
+  pinMode(sinalVermelho, OUTPUT);
 }
+
+void loop() {
+  semaforo();
+  gerenciaAgua();
+}
+
