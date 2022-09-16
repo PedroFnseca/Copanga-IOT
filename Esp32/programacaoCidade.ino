@@ -1,6 +1,8 @@
- #define sinalVerde 5
- #define sinalAmarelo 4
- #define sinalVermelho 3
+ #define sinalVerde 4
+ #define sinalAmarelo 3
+ #define sinalVermelho 2
+
+ //delay do semaforo em segundos
  #define delaySemaforo 2
 
  #define sensorAgua 6
@@ -10,20 +12,25 @@
 void semaforo()
 {
   //gerenciamento dos leds dos semáforos
+  digitalWrite(sinalAmarelo, LOW);
   digitalWrite(sinalVermelho, LOW);
   digitalWrite(sinalVerde, HIGH);
   
-  delay(delaySemaforo);
+  delay(delaySemaforo * 1000);
   
   digitalWrite(sinalVerde, LOW);
   digitalWrite(sinalAmarelo, HIGH);
 
-  delay(delaySemaforo);
+  delay(delaySemaforo * 1000);
   
   digitalWrite(sinalAmarelo, LOW);
   digitalWrite(sinalVermelho, HIGH);
 
-  delay(delaySemaforo);
+  delay(delaySemaforo * 1000);
+
+  digitalWrite(sinalAmarelo, HIGH);
+
+  delay(delaySemaforo * 1000);
 }
 
 void gerenciaAgua()
@@ -48,4 +55,3 @@ void loop() {
   semaforo();
   gerenciaAgua();
 }
-
