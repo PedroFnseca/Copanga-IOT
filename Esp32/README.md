@@ -1,12 +1,14 @@
 > # ESP32 😎❤
 
 ![](/esp32.png)
+
 <br>
 
 > # Por que em C++? 🤔👀
 ### Tendo em vista que a IDE Arduino utiliza a linguagem C++ porém com algumas modificações, o código foi totalmente desenvolvido para o ESP32.
 
 ![](/espArduino.jpg)
+
 <br>
 
 > # Como funciona o código? 📐🤨
