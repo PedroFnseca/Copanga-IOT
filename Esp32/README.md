@@ -1,6 +1,6 @@
 # ESP32 😎❤
 
-<img src="esp32Img.png"  width="400" height="790"/>
+<img src="esp32Img.png"  width="400" height="400"/>
 
 <br>
 
@@ -8,7 +8,7 @@
 <br>
 Tendo em vista que a IDE Arduino utiliza a linguagem C++ porém com algumas modificações, o código foi totalmente desenvolvido para o ESP32.
 
-<img src="espArduino.jpg"  width="400" height="790"/>
+<img src="espArduino.jpg"  width="400" height="350"/>
 
 <br>
 
