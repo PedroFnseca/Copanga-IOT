@@ -1,6 +1,6 @@
 > # ESP32 😎❤
 
-![](/esp32.png)
+![](/esp32Img.png)
 
 <br>
 
