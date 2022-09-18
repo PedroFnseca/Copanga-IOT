@@ -1,4 +1,4 @@
-<h1 align=center>ESP32 😎❤</h1>
+<h1 align="center">ESP32 😎❤</h1>
 
 <img src="esp32Img.png"  width="400" height="400"/>
 
