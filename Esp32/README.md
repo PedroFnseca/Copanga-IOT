@@ -1,7 +1,7 @@
 <h1 align="center">ESP32 😎❤</h1>
 
 <div align="center">
-    <img src="esp32Img.png"  width="400" height="400"/>
+    <img src="esp32Img.png"  width="550" height="400"/>
 </div>
 # Por que em C++? 🤔👀
 Tendo em vista que a IDE Arduino utiliza a linguagem C++ porém com algumas modificações, o código foi totalmente desenvolvido para o ESP32.
