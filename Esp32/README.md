@@ -8,7 +8,7 @@
 <br>
 Tendo em vista que a IDE Arduino utiliza a linguagem C++ porém com algumas modificações, o código foi totalmente desenvolvido para o ESP32.
 
-<img src="espArduino.jpg"  width="400" height="250"/>
+<img src="espArduino.jpg"  width="450" height="250"/>
 
 <br>
 
