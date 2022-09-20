@@ -25,7 +25,7 @@ int valvulaTimer[QuantSensores];
 //Intervalo em que irá medir a umidade e enviar as requisições para a api.
 //Sensibilidade, caso a umidade esteja abaixo desse valor, a valvula solenoide correspondente ativará,
 //molhando assim a terra
-int intervalo = 10;
+int intervalo = 1;
 int sensSensor = 65;
 
 //Variavel auxiliar do intervalo de tempo
@@ -40,7 +40,7 @@ const String ValvulaAPI = "http://api-irrigacao.herokuapp.com/valvula";
 
 
 //Função que envia as requisições POST
-void postHTTP(String endereco, String payload)
+void postHTTP(String endereco, String payload, String caminho)
 {
     //Cliente que está acessando, sendo este o próprio esp e a criação de uma instância de um cliente http
     WiFiClient client;
@@ -49,10 +49,11 @@ void postHTTP(String endereco, String payload)
 
     //Inicia a comunicação http e envia o header na requisição
     Serial.print("Requisição iniciada...\n");
+    Serial.print("Requisição do tipo: " + caminho + "\n");
     http.begin(client, endereco); //HTTP
     http.addHeader("Content-Type", "application/json");
 
-    Serial.print("POST...\n");
+    Serial.print("POST...\n\n\n");
     //httpCode é a variável que recebe o valor da requisição, se deu certo o valor é 200, responsável também por chamar a função que faz um POST na API.
     int httpCode = http.POST(payload);
 
@@ -66,13 +67,13 @@ void postHTTP(String endereco, String payload)
         if (httpCode == HTTP_CODE_OK) {
             //bodyGET recebe o que há escrito no corpo da pagina
             const String& bodyGET = http.getString();
-            Serial.println("Pacote recebido:\n<<");
+            Serial.println("Pacote recebido:\n\n<<");
             Serial.println(bodyGET);
-            Serial.println(">>");
+            Serial.println(">>\n\n");
         }
     } else {
         //Mostra o código de erro
-        Serial.printf("Ocorreu erro ao enviar a requisição POST, erro: %s\n", http.errorToString(httpCode).c_str());
+        Serial.printf("\n\nOcorreu erro ao enviar a requisição POST, erro: %s\n\n", http.errorToString(httpCode).c_str());
     }
 
     //Finaliza a requisição
@@ -148,10 +149,10 @@ void intervaloFuncao()
         
         //comando para enviar requisição para o sensor,o primeiro parametro é o endereço, 
         //e o segundo é um objeto String que retorna formatado o json
-        postHTTP(SensorAPI, json("\"idSensor\"", "\"valorSensor\"" , 2, valorSensor[0]));
-        postHTTP(SensorAPI, json("\"idSensor\"", "\"valorSensor\"" , 3, valorSensor[1]));
-        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 0, acionamentoValvula(valvula0, 0, HIGH)));
-        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 1, acionamentoValvula(valvula1, 1, HIGH)));
+        postHTTP(SensorAPI, json("\"idSensor\"", "\"valorSensor\"" , 2, valorSensor[0]), "Sensor");
+        postHTTP(SensorAPI, json("\"idSensor\"", "\"valorSensor\"" , 3, valorSensor[1]), "Sensor");
+        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 0, acionamentoValvula(valvula0, 0, HIGH)), "Valvula");
+        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 1, acionamentoValvula(valvula1, 1, HIGH)), "Valvula");
     }
 }
 void setup() {  
