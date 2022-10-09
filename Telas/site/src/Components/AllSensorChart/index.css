@@ -1,11 +1,7 @@
 #DivchartAllSensor{
     width: 100%;
-
-    /* centralizar */
     margin: 0 auto;
-
     padding: 10px;
-
     background-color: #FFFFFF;
     border-radius: 10px;
 }

@@ -1,12 +1,12 @@
-import React from 'react'
-import Home from '../../Components/Home'
+import React from "react";
+import Home from "../../Components/Home";
 
 function index() {
   return (
     <>
       <Home></Home>
     </>
-  )
+  );
 }
 
-export default index
+export default index;
