@@ -1,7 +1,13 @@
 #DivchartAllSensor{
-    width: 100%;
-    margin: 0 auto;
-    padding: 10px;
-    background-color: #FFFFFF;
-    border-radius: 10px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem 0.1rem rgba(0,0,0,0.1);
+    width: 30rem;
+}
+
+@media screen and (max-width: 768px) {
+    #DivchartAllSensor{
+        width: 100%;
+    }   
 }

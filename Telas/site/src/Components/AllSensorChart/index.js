@@ -71,10 +71,10 @@ function AllSensorChart() {
         data: valueSensor[i].reverse(),
         backgroundColor: color,
         borderColor: color,
-        borderWidth: 4,
+        borderWidth: 3,
         tension: 0.2,
         pointStyle: "circle",
-        pointRadius: 5.5,
+        pointRadius: 2.5,
       });
     }
     const days = [];
@@ -118,6 +118,8 @@ function AllSensorChart() {
   // hook que armazena as options do gráfico
   const [options, setOptions] = useState({
     // Dados que irão aparecer durante o carregamento do gráfico
+    responsive: true,
+    aspectRatio: 1,
     scales: {
       y: {
         min: 0,
@@ -141,12 +143,9 @@ function AllSensorChart() {
         display: true,
         labels: {
           boxWidth: 50,
-          padding: 10,
           font: { size: 16 },
         },
       },
-      responsive: true,
-      maintainAspectRatio: false,
     },
   });
 
@@ -159,6 +158,8 @@ function AllSensorChart() {
 
       // Atualiza o titulo e legenda do gráfico
       setOptions({
+        // responsive: true,
+        // aspectRatio: 1,
         plugins: {
           title: {
             display: true,
@@ -177,7 +178,6 @@ function AllSensorChart() {
             display: true,
             labels: {
               boxWidth: 50,
-              padding: 10,
               font: { size: 16 },
             },
           },
