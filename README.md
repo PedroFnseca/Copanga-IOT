@@ -27,6 +27,17 @@
 
 <br>
 
+# Sistema de monitoramento de irrigação 🌱
+
+> # Monitoramento dos sensores 📊
+
+- ### Alem do controle automatizado da irigação o sistema também faz o monitoramento dos sensores de umidade do solo, enviando os dados para a API que faz o armazenamento dos dados e disponibiliza para o usuário através de um dashboard.
+
+<p align="center">
+ <img height="500" width="250" src="https://user-images.githubusercontent.com/97262778/194774525-cef7b9a6-350a-4a9e-a722-5779d475d0f6.png">
+<br>
+
+
 > # Tecnologias utilizadas 🛠️
 
 <p align="center"> 
@@ -43,15 +54,3 @@
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 <img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white"/>
 </p>
-
-<br>
-
-# Sistema de monitoramento de irrigação 🌱
-
-> # Monitoramento dos sensores 📊
-
-- ### Alem do controle automatizado da irigação o sistema também faz o monitoramento dos sensores de umidade do solo, enviando os dados para a API que faz o armazenamento dos dados e disponibiliza para o usuário através de um dashboard.
-
-<p align="center">
-
-<p>
