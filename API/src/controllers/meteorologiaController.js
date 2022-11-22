@@ -9,7 +9,6 @@ router.post(
   [
     body("umidade").notEmpty().isNumeric(),
     body("temperatura").notEmpty().isNumeric(),
-    body("dataHora").notEmpty(),
   ],
   async (req, res) => {
     const errosValidation = validationResult(req);
@@ -18,10 +17,10 @@ router.post(
       return res.status(400).json({ erros: errosValidation.array() });
     }
 
-    const { umidade, temperatura, dataHora } = req.body;
+    const { umidade, temperatura} = req.body;
 
     try {
-      await db.insertMeteorologia(dataHora, temperatura, umidade);
+      await db.insertMeteorologia(temperatura, umidade);
 
       res.status(201).json({
         msg: "Registrado com exito",
