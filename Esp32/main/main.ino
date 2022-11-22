@@ -1,4 +1,4 @@
-//Bibliotecas utilizadas, necessárias para funcionamento do código.
+        //Bibliotecas utilizadas, necessárias para funcionamento do código.
 #include <ESPmDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
@@ -6,15 +6,15 @@
 #include <WiFi.h>
 
 //Nome e senha do WiFi
-#define STASSID "Theodoro_2.4G"
-#define STAPSK  "05101973"
+#define STASSID "*-*"
+#define STAPSK  "senha1234"
 
 //Variaveis que armazenam a umidade, se a válvula está ligada 
 //e o tempo que ela está ativa, respectivamente.
 #define QuantSensores 2
 int valorSensor[QuantSensores];
 int valvula[QuantSensores];
-int valvulaTimer[QuantSensores];
+unsigned long valvulaTimer[QuantSensores] = {0,0};
 
 #define sensor0 35
 #define sensor1 34
@@ -22,14 +22,16 @@ int valvulaTimer[QuantSensores];
 #define valvula0 25
 #define valvula1 26
 
+int valvulasPins[] = {25, 26};
+
 //Intervalo em que irá medir a umidade e enviar as requisições para a api.
 //Sensibilidade, caso a umidade esteja abaixo desse valor, a valvula solenoide correspondente ativará,
 //molhando assim a terra
-int intervalo = 1;
+int intervalo = 10;
 int sensSensor = 65;
 
 //Variavel auxiliar do intervalo de tempo
-int millisData = 0;
+unsigned long millisData = 0;
 
 //Senha da API
 #define apiKey "\"Copanga7\""
@@ -97,22 +99,35 @@ int acionamentoValvula(int pin, int id, bool onOff)
 {   
     //Define o pino selecionado como saida
     pinMode(pin, OUTPUT);
+
+    Serial.print("onOFF: ");
+    Serial.print(onOff);
+    Serial.print("        ; valvula ");
+    Serial.print(id);
+    Serial.print(": ");
+    Serial.println(valvulaTimer[id]);
     
     //Caso queira ligar a válvula ela verifica se o indice do vetor é zero ou nulo, para evitar que ela
     //sobrescreva sobre o valor inicial, se for, ele registra o tempo inicial
-    if(onOff == true && (valvulaTimer[id] == 0 || valvulaTimer[id] == NULL))
+    if(onOff == true && valvulaTimer[id] == 0)
     {
         //Acionamento da valvula
         digitalWrite(pin, HIGH);
         //A valvula recebe o valor millis quando é acionada, tendo assim o tempo de inicio
         valvulaTimer[id] = millis();
+        
+        /*Serial.print("Ligado: ");
+        Serial.println(id);*/
     }
     //Caso a valvula estiver sendo desligada
-    else if(onOff == false)
+    else if(onOff == false && !valvulaTimer[id] == 0)
     {
         //Se a valvula for desligada a função retorna o tempo corrido desde o acionamento da válvula
         //que é igual ao meu tempo atual menos o tempo em que ela esteve ligada
         digitalWrite(pin, LOW);
+
+        /*Serial.print("Desligado: ");
+        Serial.println(id);*/
         return (millis() - valvulaTimer[id])/1000;
     }
 }
@@ -126,14 +141,20 @@ void humidityMeasurement()
     valorSensor[0] = map(analogRead(sensor0), 0, 4095, 100, 0);
     valorSensor[1] = map(analogRead(sensor1), 0, 4095, 100, 0);
 
-    for(int i = 0; i <= QuantSensores; i++)
+    for(int i = 0; i <= QuantSensores - 1; i++)
     {
         if((valorSensor[i] < sensSensor))
         {
-            acionamentoValvula(valvula0, i, true);
+            acionamentoValvula(valvulasPins[i], i, true);
         }else{
-            acionamentoValvula(valvula1, i, false);
+            acionamentoValvula(valvulasPins[i], i, false);
+            valvulaTimer[i] = 0;
         }
+
+      /*Serial.print("valvula");
+      Serial.print(i);
+      Serial.print(":");
+      Serial.println(valorSensor[i]);*/
     }
 }
 
@@ -151,8 +172,8 @@ void intervaloFuncao()
         //e o segundo é um objeto String que retorna formatado o json
         postHTTP(SensorAPI, json("\"idSensor\"", "\"valorSensor\"" , 2, valorSensor[0]), "Sensor");
         postHTTP(SensorAPI, json("\"idSensor\"", "\"valorSensor\"" , 3, valorSensor[1]), "Sensor");
-        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 0, acionamentoValvula(valvula0, 0, HIGH)), "Valvula");
-        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 1, acionamentoValvula(valvula1, 1, HIGH)), "Valvula");
+        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 0, acionamentoValvula(valvulasPins[0], 0, HIGH)), "Valvula");
+        postHTTP(ValvulaAPI, json("\"idValvula\"", "\"segundos\"" , 1, acionamentoValvula(valvulasPins[1], 1, HIGH)), "Valvula");
     }
 }
 void setup() {  
