@@ -1,18 +1,23 @@
-drop database if exists bd_copanga;
+DROP DATABASE IF EXISTS bd_copanga;
 
-create database bd_copanga;
+CREATE DATABASE bd_copanga;
 
-use bd_copanga;
+USE bd_copanga;
 
-create table tbl_sensor(
-	dataHora date not null,
-    valorSensor float not null,
-    id_sensor int not null
+CREATE TABLE tbl_sensor(
+  dataHora DATE NOT NULL,
+  valorSensor FLOAT NOT NULL,
+  id_sensor INT NOT NULL
 );
 
-create table tbl_valvula(
-	acionado datetime not null,
-    desligado datetime not null,
-    id_valvula int not null
+CREATE TABLE tbl_valvula(
+  acionado DATETIME NOT NULL,
+  desligado DATETIME NOT NULL,
+  id_valvula INT NOT NULL
 );
 
+CREATE TABLE tbl_meteorologia(
+  temperatura FLOAT NOT NULL,
+  umidade FLOAT NOT NULL,
+  dataHora DATETIME NOT NULL
+);
