@@ -6,9 +6,7 @@ async function insertMeteorologia(dataHora, temperatura, umidade) {
   const sql =
     "INSERT INTO tbl_meteorologia (datahora, temperatura, umidade) VALUES (?, ?, ?)";
 
-  const data = [dataHora, temperatura, umidade];
-
-  conn.query(sql, data);
+  conn.query(sql, [dataHora, temperatura, umidade]);
 
   conn.end();
 }
