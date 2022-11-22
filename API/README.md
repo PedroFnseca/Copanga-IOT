@@ -47,3 +47,28 @@
 #### 2- Todos os registros do id (parâmetro adicional "idValvula") ```.../valvula/allDataId```
 #### 3- Números de registros ```.../valvula/allDataCount```
 #### 4- Ultimos registros (parametro adicional "last" = número de registros) ```.../valvula/lastData```
+
+<br><br>
+
+# Inserir os dados em meteorologia 📡
+
+### URL (POST)
+
+#### ```https://api-irrigacao.herokuapp.com/meteorologia``` Insere os dados de meteorologia
+
+#### Body JSON
+
+```json
+{
+    "temperatura": 20,
+    "umidade": 50
+}
+```
+
+<br>
+
+# Coletando os dados de meteorologia 📡
+
+### URL (GET)
+
+#### 1- Todos os registros com seus dados ```.../meteorologia/```
