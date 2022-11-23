@@ -118,8 +118,6 @@ function AllSensorChart() {
   // hook que armazena as options do gráfico
   const [options, setOptions] = useState({
     // Dados que irão aparecer durante o carregamento do gráfico
-    responsive: true,
-    aspectRatio: 1,
     scales: {
       y: {
         min: 0,
@@ -188,9 +186,40 @@ function AllSensorChart() {
 
   // Renderiza o gráfico
   return (
-    <div id="DivchartAllSensor">
-      <Linechart data={dataChart} options={options} />
+    <>
+    <div id="DivchartAllSensor" className="mobile">
+      <Linechart data={dataChart} options={{
+        ...options,
+        responsive: true,
+        aspectRatio: 1,
+        plugins: {
+          ...options.plugins,
+          legend: {
+            ...options.plugins.legend,
+            size: 12,
+          },
+          title: {
+            ...options.plugins.title,
+            font: {
+              ...options.plugins.title.font,
+              size: 16,
+            }
+          },
+          subtitle: {
+            ...options.plugins.subtitle,
+            font: {
+              ...options.plugins.subtitle.font,
+              size: 14,
+            }
+          }
+        }
+      }}/>
     </div>
+
+    <div id="DivchartAllSensor" className="desktop">
+      <Linechart data={dataChart} options={options}/>
+    </div>
+    </>
   );
 }
 

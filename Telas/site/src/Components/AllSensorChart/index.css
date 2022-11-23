@@ -3,11 +3,27 @@
     padding: 1rem;
     border-radius: 0.5rem;
     box-shadow: 0 0 0.5rem 0.1rem rgba(0,0,0,0.1);
-    width: 30rem;
+    width: 50rem;
 }
 
-@media screen and (max-width: 768px) {
+.desktop{
+    display: block;
+}
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: block;
+    }
+
     #DivchartAllSensor{
         width: 100%;
-    }   
+    }
 }
