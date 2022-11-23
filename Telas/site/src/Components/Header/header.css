@@ -2,15 +2,20 @@ Nav {
   font-weight: 600;
 }
 
+#r{
+  height: 2.8rem;
+}
+
 #linkNavbar {
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
   transition: .3s;
+  padding: 14px 10px;
 }
 
 #linkNavbar:hover {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 18px;
+  padding: 14px 10px;
 }

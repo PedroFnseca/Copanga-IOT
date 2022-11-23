@@ -35,11 +35,11 @@ function index() {
               Relatórios
             </Link>
           </Nav.Link>
-          <Nav.Link>
+          {/* <Nav.Link>
             <Link to="/meteorologia" id="linkNavbar">
               Meteorologia
             </Link>
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
       </Container>
     </Navbar>
