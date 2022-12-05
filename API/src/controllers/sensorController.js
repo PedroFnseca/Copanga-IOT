@@ -3,7 +3,7 @@ import express from 'express'
 import { body, validationResult } from 'express-validator'
 
 const router = express.Router()
-const keyApi = 'valueKey'
+const keyApi = process.env.KEY_API
 
 router.post('/', [
     body('idSensor').notEmpty().isNumeric().withMessage('idSensor invalido'),
