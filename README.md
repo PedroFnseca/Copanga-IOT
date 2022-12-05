@@ -7,7 +7,7 @@
 >
 > ### [Visitar site](https://copanga.vercel.app/)
 
-- ### Trabalho de conclusão de curso da [ETEC de Embu](https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=394) em NOVOTEC [Automação industrial](https://www.vestibulinhoetec.com.br/unidades-cursos/curso.asp?c=402)
+- ### Trabalho de conclusão de curso da [ETEC de Embu](https://www.vestibulinhoetec.com.br/unidades-cursos/escola.asp?c=394) em [Ensino Médio com Habilitação Profissional de Técnico em Automação Industrial](https://www.vestibulinhoetec.com.br/unidades-cursos/curso.asp?c=402)
 
 - ### O projeto está sendo desenvolvido para facilitar o controle de plantações e podendo vizualizar em gráficos como está indo a plantação através de uma aplicação web.
 
@@ -54,3 +54,8 @@
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 <img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white"/>
 </p>
+<br>
+
+# [Projeto Copanga-House 🏠](https://github.com/PedroFnseca/Copanga-House)
+
+### É um projeto que também faz parte do TCC de automação industrial, ele é um app criado na plataforma Android Studio que na linguagem Java. Desenvolvido para controlar uma casa automatizada da nossa cidade inteligente!
