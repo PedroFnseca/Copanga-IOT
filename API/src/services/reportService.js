@@ -18,7 +18,7 @@ async function valvulaReports(weeks){
 
   const conn = await database.connect()
 
-  const sql = "SELECT * FROM tbl_valvula WHERE datahora BETWEEN DATE_SUB(NOW(), INTERVAL ? DAY) AND NOW() ORDER BY datahora DESC"
+  const sql = "SELECT * FROM tbl_valvula WHERE desligado BETWEEN DATE_SUB(NOW(), INTERVAL ? DAY) AND NOW() ORDER BY desligado DESC"
 
   const [rows] = await conn.query(sql, days)
 
