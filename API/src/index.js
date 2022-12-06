@@ -12,5 +12,5 @@ api.use(cors())
 api.use('/', routes)
 
 api.listen(process.env.PORT || 3333, () =>{
-    console.log(`server is running in ${port}`)
+    console.log(`server is running`)
 })
