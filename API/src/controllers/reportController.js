@@ -1,9 +1,9 @@
-import db from "../database/connection.js"
+import db from "../services/reportService.js"
 import express from "express";
 
 const router = express.Router();
 
-router.get("sensor/:weeks", async (req, res) =>{
+router.get("/sensor/:weeks", async (req, res) =>{
   const {weeks} = req.params
 
   try {
@@ -17,7 +17,7 @@ router.get("sensor/:weeks", async (req, res) =>{
   }
 })
 
-router.get("valvula/:weeks", async (req, res) =>{
+router.get("/valvula/:weeks", async (req, res) =>{
   const {weeks} = req.params
 
   try {
