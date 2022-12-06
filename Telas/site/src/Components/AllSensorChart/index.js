@@ -8,7 +8,7 @@ function AllSensorChart() {
   async function getData() {
     try {
       const data = await api.get("sensor/allData");
-      return data.data.results;
+      return data.data;
     } catch (err) {
       console.log(err.code); // Erro de conexão
     }
