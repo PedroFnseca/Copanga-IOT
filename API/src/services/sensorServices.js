@@ -15,7 +15,7 @@ async function insertSensorValue(valorSensor, id_sensor){
 async function getAllDataSensor(){
     const conn = await database.connect()
 
-    const sql = 'SELECT * FROM tbl_sensor ORDER BY datahora DESC'
+    const sql = 'SELECT * FROM tbl_sensor ORDER BY datahora DESC LIMIT 25'
 
     const [rows] = await conn.query(sql)
 
