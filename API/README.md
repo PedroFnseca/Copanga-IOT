@@ -72,3 +72,14 @@
 ### URL (GET)
 
 #### 1- Todos os registros com seus dados ```.../meteorologia/```
+
+<br><br>
+
+# Relatório de dados 📊
+
+### URL (GET)
+> #### Altere o valor do parâmetro "semanas" para o número de semanas que deseja consultar
+
+#### 1- Relátorio de dados de sensor de umidade do solo ```report/sensor/semanas```
+
+#### 2- Relátorio de dados de sensor de umidade do solo ```report/valvula/semanas```
