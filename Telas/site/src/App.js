@@ -6,6 +6,7 @@ import Sensores from "./Pages/Sensores";
 import Valvulas from "./Pages/Valvulas"
 import Footer from "./Components/Footer/index.js";
 import Error from "./Pages/Error";
+import Relatorios from "./Pages/Relatorios/index.js";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sensores" element={<Sensores />} />
           <Route path="/valvulas" element={<Valvulas />} />
+          <Route path="/relatorios" element={<Relatorios />} />
           <Route path="/*" element={<Error />} />
         </Routes>
         <Footer />

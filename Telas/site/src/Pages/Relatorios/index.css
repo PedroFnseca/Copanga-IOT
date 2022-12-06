@@ -1,0 +1,23 @@
+.relatorios-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.relatorios-input{
+  margin: 2rem;
+}
+
+.relatorios-button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn-relatorio{
+  margin-bottom: 1rem;
+}
