@@ -4,10 +4,10 @@ import Linechart from "../Charts/Linechart";
 function Index() {
 
   const data = {
-    labels: ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6'],
+    labels: ['15:29', '15:40', '15:55', '16:10', '16:25', '16:40', '16:55'],
     datasets: [
       {
-        label: 'Dataset',
+        label: 'Valvula 1',
         data: [0, 1, 0, 1, 1, 0, 1],
         backgroundColor: "#1B98E0",
         borderColor: "#1B98E0",
@@ -16,7 +16,18 @@ function Index() {
         tension: 0.2,
         pointStyle: "circle",
         pointRadius: 1,
-      }
+      },
+      {
+        label: 'Valvula 2',
+        data: [1, 0, 1, 0, 0, 1, 0],
+        backgroundColor: "#A5EEA0",
+        borderColor: "#A5EEA0",
+        stepped: true,
+        borderWidth: 3,
+        tension: 0.2,
+        pointStyle: "circle",
+        pointRadius: 1,
+      },
     ]
   }
 
@@ -35,12 +46,12 @@ function Index() {
     plugins: {
       title: {
         display: true,
-        text: `Carregando dados...`,
+        text: `Acionamento das valvulas`,
         font: { size: 22 },
       },
       subtitle: {
         display: true,
-        text: `Aguarde...`,
+        text: `Dados de 15/05/2021`,
         font: { size: 18 },
       },
       legend: {
