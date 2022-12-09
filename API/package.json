@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
