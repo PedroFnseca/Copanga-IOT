@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://img.shields.io/badge/STATUS-EM DESENVOLVIMENTO-blue.svg"/>
+<img src="https://img.shields.io/badge/STATUS-FINALIZADO-green.svg"/>
 <img src="https://img.shields.io/github/contributors/pedrofnseca/copanga.svg"/>
 </p>
 
